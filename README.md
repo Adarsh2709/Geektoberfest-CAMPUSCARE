@@ -58,8 +58,8 @@ The dataset is provided for development and competition purposes. It is syntheti
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/radhikadhingra820-hue/CAMPUSCARE.git
-cd CAMPUSCARE
+git clone https://github.com/Geektoberfest/Geektoberfest-CAMPUSCARE.git
+cd Geektoberfest-CAMPUSCARE
 ```
 
 ### 2. Create and activate a virtual environment
@@ -110,10 +110,10 @@ This repository intentionally provides a working prototype rather than a finishe
 
 ### Open Challenges
 
-- **Easy:** [Add complaint evaluation tests](https://github.com/radhikadhingra820-hue/CAMPUSCARE/issues/4)
-- **Medium:** [Build a staff complaint dashboard](https://github.com/radhikadhingra820-hue/CAMPUSCARE/issues/1)
-- **Medium:** [Improve complaint classification and triage](https://github.com/radhikadhingra820-hue/CAMPUSCARE/issues/2)
-- **Hard:** [Add multilingual complaint support](https://github.com/radhikadhingra820-hue/CAMPUSCARE/issues/3)
+- **Easy:** [Add complaint evaluation tests](https://github.com/Geektoberfest/Geektoberfest-CAMPUSCARE/issues/4)
+- **Medium:** [Build a staff complaint dashboard](https://github.com/Geektoberfest/Geektoberfest-CAMPUSCARE/issues/1)
+- **Medium:** [Improve complaint classification and triage](https://github.com/Geektoberfest/Geektoberfest-CAMPUSCARE/issues/2)
+- **Hard:** [Add multilingual complaint support](https://github.com/Geektoberfest/Geektoberfest-CAMPUSCARE/issues/3)
 
 Participants should choose an issue, keep changes focused, run the tests, and link their Pull Request to the issue. Difficulty labels describe expected scope rather than a guaranteed completion time.
 
