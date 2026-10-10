@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CampusCare</title>
+    <style>
+        *{box-sizing:border-box}
+        body{
+            margin:0;
+            font-family:Arial,sans-serif;
+            background:linear-gradient(135deg,#eef7ff,#f8fbff);
+            color:#17324d;
+        }
+        .container{max-width:1050px;margin:auto;padding:50px 20px}
+        .hero{
+            background:linear-gradient(135deg,#145da0,#1b8ca8);
+            color:white;
+            padding:40px;
+            border-radius:24px;
+            margin-bottom:28px;
+            box-shadow:0 14px 35px rgba(20,93,160,.18);
+        }
+        .hero h1{font-size:44px;margin:0 0 10px}
+        .hero p{font-size:18px;margin:0;color:#e4f4ff}
+        .card{
+            background:white;
+            padding:30px;
+            border-radius:20px;
+            box-shadow:0 8px 25px rgba(23,50,77,.08);
+            margin-bottom:24px;
+        }
+        label{font-weight:700;display:block;margin:15px 0 8px}
+        input,textarea{
+            width:100%;
+            padding:14px;
+            border:1px solid #d5e1ec;
+            border-radius:12px;
+            font-size:15px;
+            outline:none;
+        }
+        input:focus,textarea:focus{border-color:#1b8ca8}
+        button{
+            margin-top:20px;
+            width:100%;
+            padding:15px;
+            border:none;
+            border-radius:12px;
+            background:#145da0;
+            color:white;
+            font-size:16px;
+            font-weight:700;
+            cursor:pointer;
+        }
+        button:hover{background:#0e4d87}
+        .result{
+            background:#f2fbf8;
+            border:1px solid #b8e3d6;
+        }
+        .grid{
+            display:grid;
+            grid-template-columns:repeat(3,1fr);
+            gap:15px;
+            margin-top:20px;
+        }
+        .metric{
+            background:white;
+            padding:18px;
+            border-radius:14px;
+            border:1px solid #dce9e7;
+        }
+        .metric small{display:block;color:#6b7d8c;margin-bottom:6px}
+        .metric strong{font-size:18px}
+        .high{color:#d94841}
+        .medium{color:#d9822b}
+        .low{color:#16805c}
+        .duplicate{margin-top:18px;font-weight:700}
+        @media(max-width:700px){.grid{grid-template-columns:1fr}.hero h1{font-size:34px}}
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+    <div class="hero">
+        <h1>🏫 CampusCare</h1>
+        <p>Smart Campus Complaint Portal</p>
+    </div>
+
+    <div class="card">
+        <h2>Submit a Complaint</h2>
+        <p>Describe your issue and CampusCare will automatically analyse it.</p>
+
+        <form method="post">
+            {% csrf_token %}
+
+            <label>Your Name</label>
+            <input type="text" name="student_name" placeholder="Enter your name" required>
+
+            <label>Complaint</label>
+            <textarea name="description" rows="6"
+                placeholder="Example: Wi-Fi is not working in Block C"
+                required></textarea>
+
+            <button type="submit">Analyze & Submit Complaint</button>
+        </form>
+    </div>
+
+    {% if result %}
+    <div class="card result">
+        <h2>✅ Complaint Analyzed</h2>
+
+        <div class="grid">
+            <div class="metric">
+                <small>Category</small>
+                <strong>{{ result.category }}</strong>
+            </div>
+
+            <div class="metric">
+                <small>Priority</small>
+                <strong class="{{ result.priority|lower }}">
+                    {{ result.priority }}
+                </strong>
+            </div>
+
+            <div class="metric">
+                <small>Department</small>
+                <strong>{{ result.department }}</strong>
+            </div>
+        </div>
+
+        <div class="duplicate">
+            {% if result.duplicate %}
+                ⚠️ Similar complaint already exists.
+            {% else %}
+                ✅ No similar complaint detected.
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+
+</div>
+</body>
+</html>

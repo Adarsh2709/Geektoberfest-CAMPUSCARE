@@ -1,0 +1,401 @@
+complaint,category,priority
+Accident: Hostel room light is not working,Hostel,High
+The exam schedule has a problem,Academic,Low
+Bus driver is skipping the Block C stop,Transport,Medium
+The classroom door is broken,Infrastructure,Medium
+Bus driver is skipping the Seminar Hall stop,Transport,Medium
+Internal marks are missing for Block A,Academic,Medium
+Wi-Fi is not working in Workshop,IT & Wi-Fi,Medium
+College bus is arriving late,Transport,Medium
+I cannot register for Boys Hostel course,Academic,Medium
+Bus service is unavailable today,Transport,Medium
+College bus is arriving late,Transport,Medium
+Immediately: Fan is not working in Science Building hostel room,Hostel,High
+College bus is overcrowded,Transport,Low
+Unable to connect to campus Wi-Fi near Block C,IT & Wi-Fi,Medium
+The hostel room tap is leaking,Hostel,Low
+The water cooler is not working in Science Building hostel,Hostel,Low
+College bus is arriving late,Transport,Medium
+Bus service is unavailable today,Transport,Low
+Hostel room light is not working,Hostel,Medium
+There is a power problem in Girls Hostel hostel,Hostel,Low
+No water supply in Block B hostel,Hostel,Medium
+There is a maintenance issue in Seminar Hall building,Infrastructure,Medium
+Security: The classroom door is broken,Infrastructure,High
+The internet keeps disconnecting in Seminar Hall,IT & Wi-Fi,Medium
+Network access is unavailable in Main Building,IT & Wi-Fi,Medium
+No water supply in Workshop hostel,Hostel,Medium
+Network access is unavailable in Main Building,IT & Wi-Fi,Medium
+Accident: The laboratory equipment needs repair,Infrastructure,High
+Fan is not working in Science Building hostel room,Hostel,Medium
+Unable to connect to campus Wi-Fi near Block A,IT & Wi-Fi,Medium
+Unsafe: Teacher has not updated attendance,Academic,High
+Teacher has not updated attendance,Academic,Medium
+Lights are not working in Block D,Infrastructure,Medium
+Medical: The internet keeps disconnecting in Science Building,IT & Wi-Fi,High
+The internet keeps disconnecting in Block A,IT & Wi-Fi,Medium
+Wi-Fi password is not working in Block D,IT & Wi-Fi,Medium
+Teacher has not updated attendance,Academic,Medium
+The classroom fan is damaged,Infrastructure,Low
+I cannot register for Computer Lab course,Academic,Medium
+The bus route for Boys Hostel is not available,Transport,Medium
+My marks are not visible on the portal,Academic,Medium
+Unable to connect to campus Wi-Fi near Block D,IT & Wi-Fi,Low
+Wi-Fi is not working in Girls Hostel,IT & Wi-Fi,Low
+Internet connection is very slow in Block A,IT & Wi-Fi,Medium
+The bus has frequent delays,Transport,Medium
+Unsafe: The laboratory equipment needs repair,Infrastructure,High
+Broken desks need repair in Central Library,Infrastructure,Medium
+Bus service is unavailable today,Transport,Medium
+Unable to access the course material for Workshop,Academic,Medium
+Bus driver is skipping the Computer Lab stop,Transport,Medium
+Fan is not working in Central Library hostel room,Hostel,Medium
+Emergency: The bus route for Block B is not available,Transport,High
+Internet connection is very slow in Seminar Hall,IT & Wi-Fi,Medium
+Computer lab network is down in Workshop,IT & Wi-Fi,Medium
+The classroom door is broken,Infrastructure,Medium
+Computer lab network is down in Science Building,IT & Wi-Fi,Medium
+Bus driver is skipping the Block D stop,Transport,Medium
+No water supply in Central Library hostel,Hostel,Medium
+Medical: There is no bus during the evening,Transport,High
+The hostel room tap is leaking,Hostel,Medium
+Accident: There is an issue with my timetable,Academic,High
+Accident: Hostel room light is not working,Hostel,High
+Immediately: Internal marks are missing for Science Building,Academic,High
+The laboratory equipment needs repair,Infrastructure,Medium
+Hostel room light is not working,Hostel,Medium
+Internet connection is very slow in Block A,IT & Wi-Fi,Medium
+Classroom projector is not working in Computer Lab,Infrastructure,Medium
+Students are facing maintenance problems in Seminar Hall hostel,Hostel,Medium
+The classroom fan is damaged,Infrastructure,Low
+The water cooler is not working in Main Building hostel,Hostel,Medium
+Students are facing maintenance problems in Girls Hostel hostel,Hostel,Medium
+Accident: Network access is unavailable in Block D,IT & Wi-Fi,High
+Fan is not working in Block C hostel room,Hostel,Medium
+There is a maintenance issue in Main Building building,Infrastructure,Medium
+The bus has frequent delays,Transport,Low
+Unable to access the course material for Main Building,Academic,Low
+The transport schedule is incorrect,Transport,Low
+The staircase railing is damaged,Infrastructure,Medium
+The classroom fan is damaged,Infrastructure,Medium
+Unable to connect to campus Wi-Fi near Block A,IT & Wi-Fi,Low
+Network access is unavailable in Central Library,IT & Wi-Fi,Medium
+Wi-Fi password is not working in Block B,IT & Wi-Fi,Medium
+I cannot register for Central Library course,Academic,Low
+Classroom projector is not working in Girls Hostel,Infrastructure,Medium
+The classroom door is broken,Infrastructure,Medium
+Teacher has not updated attendance,Academic,Medium
+Bus driver is skipping the Block B stop,Transport,Medium
+College bus is overcrowded,Transport,Medium
+There is no bus during the evening,Transport,Medium
+Immediately: Teacher has not updated attendance,Academic,High
+College bus is overcrowded,Transport,Medium
+The hostel room tap is leaking,Hostel,Low
+Emergency: College bus is arriving late,Transport,High
+Urgent: Lights are not working in Science Building,Infrastructure,High
+Network access is unavailable in Block D,IT & Wi-Fi,Medium
+My attendance is incorrect in Computer Lab,Academic,Medium
+Emergency: The internet keeps disconnecting in Block B,IT & Wi-Fi,High
+The bus route for Boys Hostel is not available,Transport,Medium
+Accident: Students are facing maintenance problems in Science Building hostel,Hostel,High
+The classroom door is broken,Infrastructure,Low
+Unable to connect to campus Wi-Fi near Block D,IT & Wi-Fi,Low
+Network access is unavailable in Block C,IT & Wi-Fi,Medium
+My attendance is incorrect in Central Library,Academic,Medium
+The classroom door is broken,Infrastructure,Medium
+There is no bus during the evening,Transport,Medium
+Emergency: The hostel room tap is leaking,Hostel,High
+The bus has frequent delays,Transport,Medium
+Unable to connect to campus Wi-Fi near Girls Hostel,IT & Wi-Fi,Low
+College bus is overcrowded,Transport,Low
+Unsafe: Network access is unavailable in Block A,IT & Wi-Fi,High
+The transport schedule is incorrect,Transport,Medium
+Fire: Campus internet has stopped working in Block B,IT & Wi-Fi,High
+Internal marks are missing for Computer Lab,Academic,Medium
+The hostel room tap is leaking,Hostel,Low
+I cannot register for Block B course,Academic,Medium
+Unsafe: Hostel bathroom needs urgent cleaning,Hostel,High
+No water supply in Block B hostel,Hostel,Low
+The hostel room tap is leaking,Hostel,Medium
+The internet keeps disconnecting in Workshop,IT & Wi-Fi,Medium
+Unable to connect to campus Wi-Fi near Block B,IT & Wi-Fi,Medium
+The classroom door is broken,Infrastructure,Medium
+Immediately: The staircase railing is damaged,Infrastructure,High
+My attendance is incorrect in Block B,Academic,Medium
+The laboratory equipment needs repair,Infrastructure,Medium
+Hostel room light is not working,Hostel,Medium
+Immediately: There is an issue with my timetable,Academic,High
+The classroom door is broken,Infrastructure,Medium
+There is a maintenance issue in Block D building,Infrastructure,Medium
+Campus internet has stopped working in Block D,IT & Wi-Fi,Medium
+Unable to access the course material for Block B,Academic,Medium
+Hostel room light is not working,Hostel,Medium
+Unsafe: Internet connection is very slow in Main Building,IT & Wi-Fi,High
+Unable to access the course material for Central Library,Academic,Medium
+Unable to connect to campus Wi-Fi near Block C,IT & Wi-Fi,Medium
+Unable to access the course material for Boys Hostel,Academic,Medium
+Bus driver is skipping the Science Building stop,Transport,Medium
+Fan is not working in Science Building hostel room,Hostel,Medium
+Security: I cannot register for Central Library course,Academic,High
+There is an issue with my timetable,Academic,Medium
+Teacher has not updated attendance,Academic,Medium
+The bus has frequent delays,Transport,Medium
+Security: My attendance is incorrect in Block D,Academic,High
+The water cooler is not working in Girls Hostel hostel,Hostel,Medium
+The laboratory equipment needs repair,Infrastructure,Medium
+The bus route for Main Building is not available,Transport,Medium
+Fire: Broken desks need repair in Boys Hostel,Infrastructure,High
+Accident: Bus driver is skipping the Block B stop,Transport,High
+The staircase railing is damaged,Infrastructure,Medium
+Internet connection is very slow in Science Building,IT & Wi-Fi,Medium
+Wi-Fi is not working in Main Building,IT & Wi-Fi,Low
+Computer lab network is down in Central Library,IT & Wi-Fi,Medium
+The classroom door is broken,Infrastructure,Low
+Broken desks need repair in Block B,Infrastructure,Medium
+The classroom door is broken,Infrastructure,Medium
+Emergency: Unable to connect to campus Wi-Fi near Computer Lab,IT & Wi-Fi,High
+My marks are not visible on the portal,Academic,Medium
+Lights are not working in Boys Hostel,Infrastructure,Medium
+Wi-Fi is not working in Block B,IT & Wi-Fi,Medium
+Students are facing maintenance problems in Girls Hostel hostel,Hostel,Medium
+The bus has frequent delays,Transport,Medium
+There is no bus during the evening,Transport,Medium
+College bus is overcrowded,Transport,Low
+Internal marks are missing for Central Library,Academic,Medium
+Computer lab network is down in Girls Hostel,IT & Wi-Fi,Medium
+The bus has frequent delays,Transport,Low
+My attendance is incorrect in Main Building,Academic,Medium
+There is a power problem in Central Library hostel,Hostel,Medium
+Emergency: Students are facing maintenance problems in Computer Lab hostel,Hostel,High
+I cannot register for Main Building course,Academic,Medium
+The transport schedule is incorrect,Transport,Medium
+There is a maintenance issue in Boys Hostel building,Infrastructure,Low
+Wi-Fi is not working in Block B,IT & Wi-Fi,Low
+There is a power problem in Block A hostel,Hostel,Low
+Urgent: Lights are not working in Girls Hostel,Infrastructure,High
+Fire: The bus route for Block D is not available,Transport,High
+The bus has frequent delays,Transport,Medium
+There is no bus during the evening,Transport,Medium
+Bus service is unavailable today,Transport,Medium
+There is an issue with my timetable,Academic,Low
+Fan is not working in Boys Hostel hostel room,Hostel,Low
+Unable to connect to campus Wi-Fi near Seminar Hall,IT & Wi-Fi,Medium
+The transport schedule is incorrect,Transport,Medium
+Security: I cannot register for Block B course,Academic,High
+Emergency: Teacher has not updated attendance,Academic,High
+My marks are not visible on the portal,Academic,Medium
+Broken desks need repair in Block B,Infrastructure,Medium
+Internet connection is very slow in Block A,IT & Wi-Fi,Medium
+My marks are not visible on the portal,Academic,Medium
+There is a maintenance issue in Block C building,Infrastructure,Low
+Emergency: My marks are not visible on the portal,Academic,High
+No water supply in Block A hostel,Hostel,Medium
+Unable to connect to campus Wi-Fi near Seminar Hall,IT & Wi-Fi,Medium
+Hostel room light is not working,Hostel,Medium
+Internet connection is very slow in Block A,IT & Wi-Fi,Medium
+Hostel room light is not working,Hostel,Medium
+Unsafe: Bus service is unavailable today,Transport,High
+There is a maintenance issue in Girls Hostel building,Infrastructure,Medium
+Internet connection is very slow in Science Building,IT & Wi-Fi,Low
+Immediately: Hostel bathroom needs urgent cleaning,Hostel,High
+The laboratory equipment needs repair,Infrastructure,Medium
+The classroom door is broken,Infrastructure,Low
+Unsafe: I cannot register for Science Building course,Academic,High
+Bus driver is skipping the Boys Hostel stop,Transport,Medium
+College bus is arriving late,Transport,Medium
+Fire: Unable to connect to campus Wi-Fi near Science Building,IT & Wi-Fi,High
+Fan is not working in Workshop hostel room,Hostel,Medium
+Unsafe: No water supply in Seminar Hall hostel,Hostel,High
+Classroom projector is not working in Central Library,Infrastructure,Medium
+Students are facing maintenance problems in Block B hostel,Hostel,Medium
+Fire: The hostel room tap is leaking,Hostel,High
+There is a power problem in Science Building hostel,Hostel,Medium
+Security: College bus is arriving late,Transport,High
+Bus driver is skipping the Seminar Hall stop,Transport,Medium
+The bus route for Block C is not available,Transport,Medium
+Campus internet has stopped working in Workshop,IT & Wi-Fi,Low
+The exam schedule has a problem,Academic,Medium
+Wi-Fi password is not working in Boys Hostel,IT & Wi-Fi,Low
+Urgent: Classroom projector is not working in Seminar Hall,Infrastructure,High
+Broken desks need repair in Central Library,Infrastructure,Medium
+The transport schedule is incorrect,Transport,Medium
+The exam schedule has a problem,Academic,Medium
+The laboratory equipment needs repair,Infrastructure,Medium
+College bus is overcrowded,Transport,Medium
+The staircase railing is damaged,Infrastructure,Medium
+Bus service is unavailable today,Transport,Medium
+The classroom fan is damaged,Infrastructure,Medium
+Wi-Fi password is not working in Computer Lab,IT & Wi-Fi,Low
+Classroom projector is not working in Central Library,Infrastructure,Medium
+The water cooler is not working in Main Building hostel,Hostel,Medium
+Unsafe: No water supply in Block B hostel,Hostel,High
+The transport schedule is incorrect,Transport,Medium
+The water cooler is not working in Computer Lab hostel,Hostel,Medium
+Computer lab network is down in Seminar Hall,IT & Wi-Fi,Medium
+Immediately: There is a maintenance issue in Block D building,Infrastructure,High
+The classroom door is broken,Infrastructure,Low
+Immediately: The transport schedule is incorrect,Transport,High
+The transport schedule is incorrect,Transport,Medium
+Immediately: The water cooler is not working in Block D hostel,Hostel,High
+Lights are not working in Block D,Infrastructure,Medium
+The classroom door is broken,Infrastructure,Low
+Bus service is unavailable today,Transport,Medium
+Security: Bus service is unavailable today,Transport,High
+Fire: There is a power problem in Block D hostel,Hostel,High
+There is a maintenance issue in Block A building,Infrastructure,Medium
+The hostel room tap is leaking,Hostel,Medium
+There is a power problem in Girls Hostel hostel,Hostel,Medium
+Hostel room light is not working,Hostel,Medium
+The hostel room tap is leaking,Hostel,Medium
+Bus driver is skipping the Block C stop,Transport,Medium
+College bus is arriving late,Transport,Medium
+I cannot register for Central Library course,Academic,Medium
+The classroom door is broken,Infrastructure,Medium
+My attendance is incorrect in Workshop,Academic,Medium
+Accident: The laboratory equipment needs repair,Infrastructure,High
+The staircase railing is damaged,Infrastructure,Low
+Hostel bathroom needs urgent cleaning,Hostel,Medium
+Internal marks are missing for Computer Lab,Academic,Medium
+The internet keeps disconnecting in Block C,IT & Wi-Fi,Medium
+Wi-Fi password is not working in Block C,IT & Wi-Fi,Medium
+There is an issue with my timetable,Academic,Medium
+Teacher has not updated attendance,Academic,Low
+Lights are not working in Boys Hostel,Infrastructure,Low
+Wi-Fi is not working in Seminar Hall,IT & Wi-Fi,Medium
+Broken desks need repair in Main Building,Infrastructure,Medium
+Accident: My attendance is incorrect in Block A,Academic,High
+Medical: Bus service is unavailable today,Transport,High
+Accident: Hostel room light is not working,Hostel,High
+Students are facing maintenance problems in Seminar Hall hostel,Hostel,Medium
+The bus has frequent delays,Transport,Low
+There is a maintenance issue in Workshop building,Infrastructure,Medium
+Computer lab network is down in Seminar Hall,IT & Wi-Fi,Medium
+I cannot register for Boys Hostel course,Academic,Medium
+Wi-Fi is not working in Workshop,IT & Wi-Fi,Medium
+My marks are not visible on the portal,Academic,Medium
+There is an issue with my timetable,Academic,Medium
+My attendance is incorrect in Block C,Academic,Low
+Unable to access the course material for Block C,Academic,Medium
+There is a maintenance issue in Block A building,Infrastructure,Low
+Emergency: There is a power problem in Block C hostel,Hostel,High
+The internet keeps disconnecting in Seminar Hall,IT & Wi-Fi,Medium
+Wi-Fi is not working in Computer Lab,IT & Wi-Fi,Medium
+No water supply in Boys Hostel hostel,Hostel,Medium
+Fire: Hostel bathroom needs urgent cleaning,Hostel,High
+The hostel room tap is leaking,Hostel,Medium
+Campus internet has stopped working in Central Library,IT & Wi-Fi,Medium
+Campus internet has stopped working in Girls Hostel,IT & Wi-Fi,Medium
+Medical: The hostel room tap is leaking,Hostel,High
+Campus internet has stopped working in Block C,IT & Wi-Fi,Low
+My marks are not visible on the portal,Academic,Medium
+My attendance is incorrect in Workshop,Academic,Medium
+No water supply in Block B hostel,Hostel,Medium
+College bus is overcrowded,Transport,Low
+The classroom fan is damaged,Infrastructure,Medium
+Security: There is a maintenance issue in Block A building,Infrastructure,High
+The laboratory equipment needs repair,Infrastructure,Low
+College bus is arriving late,Transport,Medium
+Hostel bathroom needs urgent cleaning,Hostel,Medium
+Urgent: I cannot register for Block C course,Academic,High
+There is a power problem in Block C hostel,Hostel,Medium
+The exam schedule has a problem,Academic,Low
+Fan is not working in Block C hostel room,Hostel,Low
+The bus route for Boys Hostel is not available,Transport,Low
+Unsafe: Wi-Fi is not working in Workshop,IT & Wi-Fi,High
+The classroom door is broken,Infrastructure,Low
+Teacher has not updated attendance,Academic,Low
+There is a maintenance issue in Block A building,Infrastructure,Low
+There is a maintenance issue in Seminar Hall building,Infrastructure,Low
+Hostel room light is not working,Hostel,Medium
+Wi-Fi is not working in Computer Lab,IT & Wi-Fi,Medium
+Bus service is unavailable today,Transport,Medium
+Wi-Fi password is not working in Central Library,IT & Wi-Fi,Medium
+Emergency: Internal marks are missing for Block C,Academic,High
+Medical: College bus is overcrowded,Transport,High
+Emergency: Students are facing maintenance problems in Main Building hostel,Hostel,High
+Bus service is unavailable today,Transport,Medium
+Wi-Fi password is not working in Block B,IT & Wi-Fi,Low
+The transport schedule is incorrect,Transport,Medium
+Bus service is unavailable today,Transport,Medium
+There is no bus during the evening,Transport,Medium
+Medical: My marks are not visible on the portal,Academic,High
+There is an issue with my timetable,Academic,Medium
+The laboratory equipment needs repair,Infrastructure,Low
+Unsafe: Teacher has not updated attendance,Academic,High
+Security: The staircase railing is damaged,Infrastructure,High
+Unable to access the course material for Block B,Academic,Medium
+The internet keeps disconnecting in Science Building,IT & Wi-Fi,Low
+Internal marks are missing for Block D,Academic,Medium
+The internet keeps disconnecting in Block C,IT & Wi-Fi,Medium
+Immediately: The exam schedule has a problem,Academic,High
+Internet connection is very slow in Computer Lab,IT & Wi-Fi,Medium
+My marks are not visible on the portal,Academic,Medium
+Campus internet has stopped working in Girls Hostel,IT & Wi-Fi,Medium
+My attendance is incorrect in Computer Lab,Academic,Low
+The laboratory equipment needs repair,Infrastructure,Medium
+Emergency: The laboratory equipment needs repair,Infrastructure,High
+The water cooler is not working in Block A hostel,Hostel,Medium
+Immediately: Lights are not working in Seminar Hall,Infrastructure,High
+Immediately: My marks are not visible on the portal,Academic,High
+Unable to connect to campus Wi-Fi near Girls Hostel,IT & Wi-Fi,Medium
+Fan is not working in Block B hostel room,Hostel,Medium
+The bus has frequent delays,Transport,Low
+Broken desks need repair in Boys Hostel,Infrastructure,Medium
+Bus driver is skipping the Main Building stop,Transport,Low
+Network access is unavailable in Block D,IT & Wi-Fi,Low
+There is an issue with my timetable,Academic,Low
+Students are facing maintenance problems in Block A hostel,Hostel,Medium
+Unsafe: Fan is not working in Workshop hostel room,Hostel,High
+Accident: Wi-Fi is not working in Block B,IT & Wi-Fi,High
+The water cooler is not working in Seminar Hall hostel,Hostel,Low
+Unsafe: There is a power problem in Block D hostel,Hostel,High
+Hostel bathroom needs urgent cleaning,Hostel,Low
+Internet connection is very slow in Computer Lab,IT & Wi-Fi,Medium
+Network access is unavailable in Seminar Hall,IT & Wi-Fi,Medium
+The laboratory equipment needs repair,Infrastructure,Medium
+There is an issue with my timetable,Academic,Low
+Accident: Hostel room light is not working,Hostel,High
+The internet keeps disconnecting in Seminar Hall,IT & Wi-Fi,Medium
+The water cooler is not working in Central Library hostel,Hostel,Medium
+Unsafe: The bus route for Seminar Hall is not available,Transport,High
+The classroom fan is damaged,Infrastructure,Low
+There is a maintenance issue in Girls Hostel building,Infrastructure,Medium
+The laboratory equipment needs repair,Infrastructure,Medium
+College bus is arriving late,Transport,Low
+College bus is overcrowded,Transport,Medium
+The hostel room tap is leaking,Hostel,Medium
+Wi-Fi is not working in Block D,IT & Wi-Fi,Low
+Unable to access the course material for Main Building,Academic,Low
+There is an issue with my timetable,Academic,Medium
+Unable to connect to campus Wi-Fi near Central Library,IT & Wi-Fi,Medium
+Lights are not working in Main Building,Infrastructure,Medium
+College bus is arriving late,Transport,Medium
+Bus driver is skipping the Science Building stop,Transport,Medium
+My marks are not visible on the portal,Academic,Medium
+The bus route for Workshop is not available,Transport,Low
+The classroom door is broken,Infrastructure,Medium
+There is a maintenance issue in Workshop building,Infrastructure,Medium
+The exam schedule has a problem,Academic,Medium
+Bus service is unavailable today,Transport,Medium
+The exam schedule has a problem,Academic,Medium
+Hostel bathroom needs urgent cleaning,Hostel,Low
+Unsafe: Computer lab network is down in Girls Hostel,IT & Wi-Fi,High
+The bus has frequent delays,Transport,Medium
+Medical: Wi-Fi is not working in Block D,IT & Wi-Fi,High
+The staircase railing is damaged,Infrastructure,Medium
+Urgent: Bus driver is skipping the Science Building stop,Transport,High
+Emergency: Computer lab network is down in Block A,IT & Wi-Fi,High
+Network access is unavailable in Central Library,IT & Wi-Fi,Low
+Urgent: Computer lab network is down in Girls Hostel,IT & Wi-Fi,High
+Broken desks need repair in Block C,Infrastructure,Low
+Fire: Broken desks need repair in Science Building,Infrastructure,High
+Unable to access the course material for Boys Hostel,Academic,Medium
+There is no bus during the evening,Transport,Medium
+The hostel room tap is leaking,Hostel,Low
+Unable to access the course material for Block B,Academic,Medium
+Hostel bathroom needs urgent cleaning,Hostel,Medium
+Teacher has not updated attendance,Academic,Medium
+Unable to access the course material for Girls Hostel,Academic,Medium
+My marks are not visible on the portal,Academic,Medium
+My marks are not visible on the portal,Academic,Medium
+Fire: The water cooler is not working in Block C hostel,Hostel,High
