@@ -99,3 +99,20 @@ Duplicate checking uses TF-IDF cosine similarity ($\ge 0.75$) with the script-aw
 2. **Out-of-Vocabulary Slang**: Highly informal campus slang or novel abbreviations not present in campus complaint patterns may have lower confidence.
 3. **Cross-Language Duplicate Detection**: Duplicate similarity is lexical (TF-IDF cosine similarity); therefore, an English complaint will not match a Devanagari complaint about the same physical event unless transliterated terms overlap.
 4. **Tested Languages Scope**: Support is strictly limited and tested for **English, Hindi, Hinglish, and Marathi**. Other Indic or foreign languages are not officially supported.
+
+---
+
+## 6. Visual Proof & Verification
+
+### Test Suite Execution
+![Test Suite Passing](screenshots/test_suite_passing.png)
+
+### Hindi Complaint Triage
+![Hindi Complaint Triage](screenshots/hindi_complaint_triage.png)
+
+### Hinglish Complaint Triage
+![Hinglish Complaint Triage](screenshots/hinglish_complaint_triage.png)
+
+### Marathi Complaint Triage
+![Marathi Complaint Triage](screenshots/marathi_complaint_triage.png)
+
