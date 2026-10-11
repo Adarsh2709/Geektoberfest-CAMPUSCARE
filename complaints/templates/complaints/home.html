@@ -57,7 +57,7 @@
         }
         .grid{
             display:grid;
-            grid-template-columns:repeat(3,1fr);
+            grid-template-columns:repeat(4,1fr);
             gap:15px;
             margin-top:20px;
         }
@@ -73,7 +73,8 @@
         .medium{color:#d9822b}
         .low{color:#16805c}
         .duplicate{margin-top:18px;font-weight:700}
-        @media(max-width:700px){.grid{grid-template-columns:1fr}.hero h1{font-size:34px}}
+        @media(max-width:768px){.grid{grid-template-columns:1fr 1fr}.hero h1{font-size:34px}}
+        @media(max-width:500px){.grid{grid-template-columns:1fr}}
     </style>
 </head>
 
@@ -82,12 +83,12 @@
 
     <div class="hero">
         <h1>🏫 CampusCare</h1>
-        <p>Smart Campus Complaint Portal</p>
+        <p>Smart Multilingual Campus Complaint Portal (Supports English, Hindi, Hinglish, Marathi)</p>
     </div>
 
     <div class="card">
         <h2>Submit a Complaint</h2>
-        <p>Describe your issue and CampusCare will automatically analyse it.</p>
+        <p>Describe your issue in English, Hindi (हिन्दी), Hinglish, or Marathi (मराठी) and CampusCare will automatically analyze it.</p>
 
         <form method="post">
             {% csrf_token %}
@@ -97,7 +98,7 @@
 
             <label>Complaint</label>
             <textarea name="description" rows="6"
-                placeholder="Example: Wi-Fi is not working in Block C"
+                placeholder="Example: Wi-Fi is not working in Block C / हॉस्टल में पानी नहीं आ रहा है / वसतिगृहात पाणी येत नाही / Hostel mein light issue hai"
                 required></textarea>
 
             <button type="submit">Analyze & Submit Complaint</button>
@@ -109,6 +110,11 @@
         <h2>✅ Complaint Analyzed</h2>
 
         <div class="grid">
+            <div class="metric">
+                <small>Language</small>
+                <strong>{{ result.language }}</strong>
+            </div>
+
             <div class="metric">
                 <small>Category</small>
                 <strong>{{ result.category }}</strong>

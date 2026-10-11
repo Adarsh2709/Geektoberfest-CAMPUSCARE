@@ -22,20 +22,31 @@ Use examples such as:
 ```text
 Wi-Fi is not working in Block C
 ```
-
-Expected category: IT & Wi-Fi.
-
-And:
+Expected language: English, category: IT & Wi-Fi.
 
 ```text
 Emergency! There is no water supply in the hostel.
 ```
+Expected language: English, category: Hostel, priority: High.
 
-Expected category: Hostel and priority: High.
+```text
+हॉस्टल में पानी नहीं आ रहा है
+```
+Expected language: Hindi, category: Hostel.
+
+```text
+Hostel mein paani nahi aa raha hai
+```
+Expected language: Hinglish, category: Hostel.
+
+```text
+वसतिगृहात पाण्याचा पुरवठा बंद आहे
+```
+Expected language: Marathi, category: Hostel.
 
 ## Current Gaps
 
-The prototype does not provide a custom admin dashboard, advanced multilingual support, or a more advanced complaint-intelligence pipeline. These are intentionally suitable areas for participant contributions.
+The prototype provides full multilingual complaint intake (English, Hindi, Hinglish, Marathi). Open areas for future contributions include building a staff admin analytics dashboard, speech-to-text input, and automated email/SMS status alerts.
 
 ## Main Technical Concepts
 
