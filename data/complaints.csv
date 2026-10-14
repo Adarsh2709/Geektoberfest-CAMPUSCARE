@@ -1,5 +1,5 @@
 complaint,category,priority,language
-Hostel bathroom needs urgent cleaning,Hostel,Medium,English
+Hostel room light is not working in Block A,Hostel,Medium,English
 सेंट्रल लाइब्रेरी के पास कैंपस वाई-फाई से कनेक्ट नहीं हो पा रहा है,IT & Wi-Fi,Medium,Hindi
 Laboratory ke equipment aur apparatus kharab hain,Infrastructure,Low,Hinglish
 प्राध्यापकांनी अद्याप हजेरी अद्ययावत केली नाही,Academic,Medium,Marathi
@@ -12,15 +12,15 @@ Laboratory ke equipment aur apparatus kharab hain,Infrastructure,Low,Hinglish
 Danger: Classroom ka door toota hua hai,Infrastructure,High,Hinglish
 आग: हॉस्टल के कमरे का नल लगातार लीक हो रहा है,Hostel,High,Hindi
 प्रयोगशाळेतील उपकरणे नादुरुस्त आहेत,Infrastructure,Medium,Marathi
-Unable to connect to campus Wi-Fi near Block C,IT & Wi-Fi,Medium,English
+Network access is unavailable in Block C,IT & Wi-Fi,Medium,English
 वैद्यकीय आणीबाणी: ब्लॉक डी मध्ये वाय-फाय व्यवस्थित चालत नाही आहे,IT & Wi-Fi,High,Marathi
-Unsafe: Lights are not working in Main Building,Infrastructure,High,English
+Unsafe: Broken desks need repair in Main Building,Infrastructure,High,English
 Danger: Girls Hostel mein wifi kaam nahi kar raha hai,IT & Wi-Fi,High,Hinglish
 ब्लॉक बी हॉस्टल में वाटर कूलर काम नहीं कर रहा है,Hostel,Medium,Hindi
 वसतिगृहाच्या खोलीतील नळ गळत आहे,Hostel,Medium,Marathi
 ब्लॉक सी में इंटरनेट कनेक्शन बहुत धीमा चल रहा है,IT & Wi-Fi,Medium,Hindi
 मुलांचे वसतिगृह वसतिगृहात विजेची मोठी अडचण आहे,Hostel,Medium,Marathi
-The bus has frequent delays,Transport,Medium,English
+Morning college bus is severely overcrowded near Computer Lab,Transport,Medium,English
 विज्ञान इमारत वसतिगृहात पाण्याचा पुरवठा बंद आहे,Hostel,Medium,Marathi
 खतरा: मेरे क्लास टाइमटेबल में गड़बड़ी है,Academic,High,Hindi
 Seminar Hall ke paas campus wifi connect nahi ho raha hai,IT & Wi-Fi,Medium,Hinglish
@@ -34,29 +34,29 @@ Teacher ne abhi tak attendance update nahi ki hai,Academic,Medium,Hinglish
 Main Block A course ke liye registration nahi kar pa raha,Academic,Low,Hinglish
 Wi-Fi is not working in Seminar Hall,IT & Wi-Fi,Medium,English
 Danger: Seminar Hall mein network connectivity ki bahut dikkat hai,IT & Wi-Fi,High,Hinglish
-Lights are not working in Main Building,Infrastructure,Medium,English
+The classroom fan is damaged in Main Building,Infrastructure,Medium,English
 सुरक्षा समस्या: क्लासरूम का मुख्य दरवाजा टूटा हुआ है,Infrastructure,High,Hindi
-There is a power problem in Seminar Hall hostel,Hostel,Medium,English
+Hostel mess food quality is spoiled in Seminar Hall,Hostel,Medium,English
 Laboratory ke equipment aur apparatus kharab hain,Infrastructure,Medium,Hinglish
-Fire: Campus internet has stopped working in Block B,IT & Wi-Fi,High,English
+Fire: Internet bandwidth and speed is extremely slow in Block B,IT & Wi-Fi,High,English
 वसतिगृहाचे स्वच्छतागृह तातडीने स्वच्छ करणे आवश्यक आहे,Hostel,Low,Marathi
 हॉस्टल रूम की लाइट खराब हो गई है,Hostel,Medium,Hindi
 आग: ब्लॉक बी वसतिगृहातील वॉटर कुलर बंद पडला आहे,Hostel,High,Marathi
 Seminar Hall mein network connectivity ki bahut dikkat hai,IT & Wi-Fi,Medium,Hinglish
-College bus is overcrowded,Transport,Medium,English
+Bus service is unavailable today for Workshop,Transport,Medium,English
 मुलांचे वसतिगृह वसतिगृहाच्या खोलीत पंखा चालत नाही,Hostel,Medium,Marathi
 मेडिकल इमरजेंसी: परीक्षा टाइमटेबल और शेड्यूल में समस्या है,Academic,High,Hindi
-Unsafe: Students are facing maintenance problems in Science Building hostel,Hostel,High,English
+Unsafe: Hostel room fan regulator is stuck in Science Building,Hostel,High,English
 Suraksha problem: Block B mein wifi password work nahi kar raha hai,IT & Wi-Fi,High,Hinglish
 Central Library hostel mein maintenance ki dikkat aa rahi hai,Hostel,Medium,Hinglish
-The bus route for Science Building is not available,Transport,Medium,English
+College bus is overcrowded near Science Building,Transport,Medium,English
 Block B ke internal marks portal par upload nahi hue,Academic,Medium,Hinglish
-Emergency: The internet keeps disconnecting in Block B,IT & Wi-Fi,High,English
+Emergency: Wi-Fi router in Block B keeps restarting and dropping connections,IT & Wi-Fi,High,English
 आणीबाणी: ब्लॉक सी मध्ये इंटरनेट कनेक्शन खूप स्लो चालू आहे,IT & Wi-Fi,High,Marathi
-Wi-Fi password is not working in Computer Lab,IT & Wi-Fi,Low,English
+Campus intranet portal returning bad gateway error in Computer Lab,IT & Wi-Fi,Low,English
 Seminar Hall hostel mein bijli ki problem hai,Hostel,Low,Hinglish
-Medical: Broken desks need repair in Main Building,Infrastructure,High,English
-The classroom fan is damaged,Infrastructure,Medium,English
+Medical: There is a maintenance issue in Main Building building,Infrastructure,High,English
+The classroom door is broken in Girls Hostel,Infrastructure,Medium,English
 सेंट्रल लाइब्रेरी के इंटरनल मार्क्स पोर्टल पर गायब हैं,Academic,Medium,Hindi
 खतरा: परीक्षा टाइमटेबल और शेड्यूल में समस्या है,Academic,High,Hindi
 पोर्टलवर परीक्षेचे गुण दिसत नाहीत,Academic,Medium,Marathi
@@ -66,40 +66,40 @@ Stairs ki railing tooti hui hai,Infrastructure,Medium,Hinglish
 वर्गातील पंखा नादुरुस्त झाला आहे,Infrastructure,Medium,Marathi
 Classroom ka fan damaged hai,Infrastructure,Medium,Hinglish
 कंप्यूटर लैब के पास कैंपस वाई-फाई से कनेक्ट नहीं हो पा रहा है,IT & Wi-Fi,Medium,Hindi
-Network access is unavailable in Block D,IT & Wi-Fi,Medium,English
+Printer network configuration in Block D is down,IT & Wi-Fi,Medium,English
 Computer Lab ke internal marks portal par upload nahi hue,Academic,Low,Hinglish
-The classroom door is broken,Infrastructure,Medium,English
+Laboratory chemical fume hood fan not functioning in Girls Hostel,Infrastructure,Medium,English
 Medical Emergency: Block A hostel mein bijli ki problem hai,Hostel,High,Hinglish
 पोर्टल पर मेरे परीक्षा के मार्क्स नहीं दिख रहे हैं,Academic,Medium,Hindi
-Students are facing maintenance problems in Central Library hostel,Hostel,Medium,English
+Bathroom tap is continuously dripping in Central Library hostel,Hostel,Medium,English
 आज कॉलेज बस सेवा बंद आहे,Transport,Medium,Marathi
 आज कॉलेज बस सेवा बंद आहे,Transport,Low,Marathi
 Block B mein classroom projector kaam nahi kar raha hai,Infrastructure,Low,Hinglish
 कंप्यूटर लैब हॉस्टल में वाटर कूलर काम नहीं कर रहा है,Hostel,Medium,Hindi
-My attendance is incorrect in Block A,Academic,Medium,English
+Internal marks are missing for Block A,Academic,Medium,English
 कॉलेज ट्रांसपोर्ट का टाइमटेबल गलत है,Transport,Medium,Hindi
 प्रोफेसर ने अभी तक अटेंडेंस अपडेट नहीं की है,Academic,Medium,Hindi
 College bus bahut late aa rahi hai,Transport,Medium,Hinglish
 धोका: प्रयोगशाळेतील उपकरणे नादुरुस्त आहेत,Infrastructure,High,Marathi
 आग: मुलींचे वसतिगृह मधील वर्गाचे दिवे नादुरुस्त आहेत,Infrastructure,High,Marathi
 Unsafe: Wi-Fi is not working in Workshop,IT & Wi-Fi,High,English
-There is a power problem in Central Library hostel,Hostel,Medium,English
+Hostel geyser not heating water in Central Library bathroom,Hostel,Medium,English
 Khatra: Main Block D course ke liye registration nahi kar pa raha,Academic,High,Hinglish
-Computer lab network is down in Workshop,IT & Wi-Fi,Medium,English
+Wi-Fi password is not working in Workshop,IT & Wi-Fi,Medium,English
 Exam schedule mein timetable ki issue hai,Academic,Low,Hinglish
 ब्लॉक सी चा अभ्यासक्रम आणि साहित्य उपलब्ध होत नाही,Academic,Medium,Marathi
-I cannot register for Boys Hostel course,Academic,Medium,English
+Attendance percentage showing below eligibility criteria in Boys Hostel,Academic,Medium,English
 Block D ke paas campus wifi connect nahi ho raha hai,IT & Wi-Fi,Low,Hinglish
-Fire: Broken desks need repair in Block A,Infrastructure,High,English
+Fire: There is a maintenance issue in Block A building,Infrastructure,High,English
 विज्ञान इमारत मध्ये संगणक प्रयोगशाळेचे नेटवर्क बंद पडले आहे,IT & Wi-Fi,Low,Marathi
 सेंट्रल लाइब्रेरी हॉस्टल में छात्रों को मेंटेनेंस की दिक्कत हो रही है,Hostel,Medium,Hindi
 Main Central Library course ke liye registration nahi kar pa raha,Academic,Low,Hinglish
 Block D mein computer lab ka network down hai,IT & Wi-Fi,Medium,Hinglish
-The transport schedule is incorrect,Transport,Low,English
+College bus driver drove recklessly near Seminar Hall,Transport,Low,English
 Emergency: Seminar Hall mein computer lab ka network down hai,IT & Wi-Fi,High,Hinglish
 ब्लॉक डी साठी कॉलेज बस मार्ग उपलब्ध नाही,Transport,Medium,Marathi
 Hostel room ki light kaam nahi kar rahi,Hostel,Medium,Hinglish
-Computer lab network is down in Seminar Hall,IT & Wi-Fi,Medium,English
+The internet keeps disconnecting in Seminar Hall,IT & Wi-Fi,Medium,English
 कंप्यूटर लैब में वाई-फाई काम नहीं कर रहा है,IT & Wi-Fi,Medium,Hindi
 Suraksha problem: College bus bohot overcrowded rehti hai,Transport,High,Hinglish
 ब्लॉक डी में वाई-फाई काम नहीं कर रहा है,IT & Wi-Fi,Low,Hindi
@@ -115,25 +115,25 @@ Science Building mein wifi password work nahi kar raha hai,IT & Wi-Fi,Medium,Hin
 हॉस्टल के कमरे का नल लगातार लीक हो रहा है,Hostel,Medium,Hindi
 Block B mein wifi kaam nahi kar raha hai,IT & Wi-Fi,Medium,Hinglish
 ब्लॉक सी में टूटे हुए डेस्क और बेंच की मरम्मत चाहिए,Infrastructure,Medium,Hindi
-Internet connection is very slow in Block A,IT & Wi-Fi,Medium,English
+Computer lab network is down in Block A,IT & Wi-Fi,Medium,English
 Portal par mere marks show nahi ho rahe hain,Academic,Low,Hinglish
-Internet connection is very slow in Computer Lab,IT & Wi-Fi,Medium,English
+Computer lab network is down in Computer Lab,IT & Wi-Fi,Medium,English
 Seminar Hall mein toote hue desk aur benches repair hone chahiye,Infrastructure,Medium,Hinglish
-The water cooler is not working in Main Building hostel,Hostel,Low,English
+Students are facing maintenance problems in Main Building hostel,Hostel,Low,English
 परीक्षा टाइमटेबल और शेड्यूल में समस्या है,Academic,Low,Hindi
-Fan is not working in Central Library hostel room,Hostel,Medium,English
+Hostel bathroom needs urgent cleaning in Central Library,Hostel,Medium,English
 Block A hostel mein maintenance ki dikkat aa rahi hai,Hostel,Medium,Hinglish
 Block C hostel mein bijli ki problem hai,Hostel,Medium,Hinglish
 Classroom ka door toota hua hai,Infrastructure,Low,Hinglish
 पोर्टल पर मेरे परीक्षा के मार्क्स नहीं दिख रहे हैं,Academic,Medium,Hindi
 प्रयोगशाला के उपकरण टूटे हुए हैं और मरम्मत चाहिए,Infrastructure,Medium,Hindi
 ब्लॉक ए में क्लास की लाइटें खराब पड़ी हैं,Infrastructure,Medium,Hindi
-Internal marks are missing for Block D,Academic,Medium,English
+Unable to access the course material for Block D,Academic,Medium,English
 Danger: Workshop mein internet connection bohot slow chal raha hai,IT & Wi-Fi,High,Hinglish
 Hostel room ka tap leak ho raha hai,Hostel,Low,Hinglish
 Classroom ka fan damaged hai,Infrastructure,Medium,Hinglish
 सेंट्रल लाइब्रेरी के इंटरनल मार्क्स पोर्टल पर गायब हैं,Academic,Medium,Hindi
-The classroom door is broken,Infrastructure,Medium,English
+Laboratory chemical fume hood fan not functioning in Block B,Infrastructure,Medium,English
 Stairs ki railing tooti hui hai,Infrastructure,Medium,Hinglish
 Stairs ki railing tooti hui hai,Infrastructure,Medium,Hinglish
 मेन बिल्डिंग हॉस्टल के कमरे में पंखा नहीं चल रहा है,Hostel,Medium,Hindi
@@ -141,25 +141,25 @@ Suraksha problem: Science Building mein wifi password work nahi kar raha hai,IT 
 आग: प्रोफेसर ने अभी तक अटेंडेंस अपडेट नहीं की है,Academic,High,Hindi
 तातडीने: कॅम्पस इंटरनेट अचानक बंद पडले आहे ब्लॉक सी मध्ये,IT & Wi-Fi,High,Marathi
 गर्ल्स हॉस्टल में क्लास की लाइटें खराब पड़ी हैं,Infrastructure,Medium,Hindi
-Immediately: There is a power problem in Computer Lab hostel,Hostel,High,English
+Immediately: Hostel mess food quality is spoiled in Computer Lab,Hostel,High,English
 Block D ke internal marks portal par upload nahi hue,Academic,Medium,Hinglish
 वर्गातील पंखा नादुरुस्त झाला आहे,Infrastructure,Medium,Marathi
-Unable to connect to campus Wi-Fi near Seminar Hall,IT & Wi-Fi,Medium,English
-My marks are not visible on the portal,Academic,Low,English
+Campus internet has stopped working in Seminar Hall,IT & Wi-Fi,Medium,English
+Course registration portal crashed before deadline in Workshop,Academic,Low,English
 ब्लॉक ए के लिए कॉलेज बस का रूट उपलब्ध नहीं है,Transport,Medium,Hindi
-The classroom door is broken,Infrastructure,Medium,English
+Laboratory chemical fume hood fan not functioning in Block C,Infrastructure,Medium,English
 Hostel room ka tap leak ho raha hai,Hostel,Medium,Hinglish
-There is no bus during the evening,Transport,Medium,English
-There is no bus during the evening,Transport,Low,English
-Wi-Fi password is not working in Boys Hostel,IT & Wi-Fi,Low,English
-Students are facing maintenance problems in Boys Hostel hostel,Hostel,Medium,English
-Fan is not working in Block A hostel room,Hostel,Medium,English
+College bus driver routinely skips the pickup stop at Block B,Transport,Medium,English
+College bus driver routinely skips the pickup stop at Main Building,Transport,Low,English
+Computer lab network switch is dead in Boys Hostel,IT & Wi-Fi,Low,English
+Bathroom tap is continuously dripping in Boys Hostel hostel,Hostel,Medium,English
+The water cooler is not working in Block A hostel,Hostel,Medium,English
 तुरंत: सीढ़ियों की रेलिंग टूट गई है और खतरनाक है,Infrastructure,High,Hindi
 महाविद्यालयाच्या बसमध्ये प्रचंड गर्दी असते,Transport,Low,Marathi
 मध्यवर्ती ग्रंथालय इमारतीत दुरुस्ती आणि देखभालीची समस्या आहे,Infrastructure,Medium,Marathi
 College bus bohot overcrowded rehti hai,Transport,Medium,Hinglish
 Portal par mere marks show nahi ho rahe hain,Academic,Low,Hinglish
-There is a power problem in Seminar Hall hostel,Hostel,Low,English
+Hostel mess food quality is spoiled in Seminar Hall,Hostel,Low,English
 वसतिगृहाच्या खोलीतील लाईट बंद झाली आहे,Hostel,Medium,Marathi
 खतरा: हॉस्टल के बाथरूम की तुरंत सफाई की जरूरत है,Hostel,High,Hindi
 बस चालक ब्लॉक सी थांब्यावर बस थांबवत नाही,Transport,Low,Marathi
@@ -168,15 +168,15 @@ College bus bohot overcrowded rehti hai,Transport,Medium,Hinglish
 Seminar Hall mein meri attendance galat dikha raha hai,Academic,Medium,Hinglish
 Boys Hostel mein internet connection bohot slow chal raha hai,IT & Wi-Fi,Medium,Hinglish
 आज कॉलेज की बस सेवा उपलब्ध नहीं है,Transport,Medium,Hindi
-College bus is overcrowded,Transport,Medium,English
-Teacher has not updated attendance,Academic,Low,English
+The transport schedule is incorrect for Computer Lab,Transport,Medium,English
+Professor cancelled lecture without notice in Block D,Academic,Low,English
 शाम के समय घर जाने के लिए कोई बस नहीं मिलती,Transport,Medium,Hindi
-Medical: There is no bus during the evening,Transport,High,English
+Medical: AC in executive campus shuttle is not cooling near Girls Hostel,Transport,High,English
 मेन बिल्डिंग हॉस्टल में छात्रों को मेंटेनेंस की दिक्कत हो रही है,Hostel,Medium,Hindi
 मुख्य इमारत इमारतीत दुरुस्ती आणि देखभालीची समस्या आहे,Infrastructure,Medium,Marathi
 ब्लॉक डी के पास कैंपस वाई-फाई से कनेक्ट नहीं हो पा रहा है,IT & Wi-Fi,Low,Hindi
 ब्लॉक डी मधील वर्गातील प्रोजेक्टर व्यवस्थित चालत नाही,Infrastructure,Medium,Marathi
-Hostel bathroom needs urgent cleaning,Hostel,Medium,English
+Hostel room light is not working in Block D,Hostel,Medium,English
 मैं ब्लॉक डी विषय और कोर्स के लिए रजिस्टर नहीं कर पा रहा हूँ,Academic,Medium,Hindi
 आज कॉलेज की बस सेवा उपलब्ध नहीं है,Transport,Medium,Hindi
 Stairs ki railing tooti hui hai,Infrastructure,Medium,Hinglish
@@ -191,36 +191,36 @@ Exam schedule mein timetable ki issue hai,Academic,Medium,Hinglish
 मुलींचे वसतिगृह चे अंतर्गत गुण पोर्टलवर दिसत नाहीत,Academic,Medium,Marathi
 ब्लॉक सी हॉस्टल में छात्रों को मेंटेनेंस की दिक्कत हो रही है,Hostel,Medium,Hindi
 आग: कॉलेज बस में बहुत ज्यादा भीड़ रहती है,Transport,High,Hindi
-Unsafe: There is a power problem in Block A hostel,Hostel,High,English
+Unsafe: Hostel mess food quality is spoiled in Block A,Hostel,High,English
 खतरा: साइंस बिल्डिंग के पास कैंपस वाई-फाई से कनेक्ट नहीं हो पा रहा है,IT & Wi-Fi,High,Hindi
 College bus bahut late aa rahi hai,Transport,Medium,Hinglish
 कॅम्पस इंटरनेट अचानक बंद पडले आहे सभागृह मध्ये,IT & Wi-Fi,Medium,Marathi
 Suraksha problem: Girls Hostel ke liye college bus route available nahi hai,Transport,High,Hinglish
-College bus is arriving late,Transport,Medium,English
-Bus driver is skipping the Central Library stop,Transport,Medium,English
+College bus is arriving late at Workshop,Transport,Medium,English
+The bus has frequent delays near Central Library,Transport,Medium,English
 Computer Lab hostel mein paani bilkul nahi aa raha hai,Hostel,Medium,Hinglish
-The staircase railing is damaged,Infrastructure,Medium,English
-Hostel room light is not working,Hostel,Medium,English
+Ceiling plaster fell down on desks in Boys Hostel,Infrastructure,Medium,English
+Hostel laundry washing machines are out of order in Workshop,Hostel,Medium,English
 मुलींचे वसतिगृह मध्ये नेटवर्क सेवा पूर्णपणे बंद आहे,IT & Wi-Fi,Medium,Marathi
-Security: Students are facing maintenance problems in Central Library hostel,Hostel,High,English
+Security: Hostel room fan regulator is stuck in Central Library,Hostel,High,English
 प्रयोगशाळेतील उपकरणे नादुरुस्त आहेत,Infrastructure,Medium,Marathi
 Block B hostel mein maintenance ki dikkat aa rahi hai,Hostel,Low,Hinglish
-There is a power problem in Girls Hostel hostel,Hostel,Low,English
+Hostel mess food quality is spoiled in Girls Hostel,Hostel,Low,English
 कॉलेज बस में बहुत ज्यादा भीड़ रहती है,Transport,Medium,Hindi
-The classroom door is broken,Infrastructure,Low,English
+Laboratory chemical fume hood fan not functioning in Seminar Hall,Infrastructure,Low,English
 कंप्यूटर लैब में क्लास की लाइटें खराब पड़ी हैं,Infrastructure,Low,Hindi
 वैद्यकीय आणीबाणी: ब्लॉक ए वसतिगृहात पाण्याचा पुरवठा बंद आहे,Hostel,High,Marathi
 मेन बिल्डिंग हॉस्टल में छात्रों को मेंटेनेंस की दिक्कत हो रही है,Hostel,Medium,Hindi
 Exam schedule mein timetable ki issue hai,Academic,Medium,Hinglish
 Main Building ke internal marks portal par upload nahi hue,Academic,Medium,Hinglish
-The classroom fan is damaged,Infrastructure,Medium,English
+The classroom door is broken in Central Library,Infrastructure,Medium,English
 गर्ल्स हॉस्टल हॉस्टल में छात्रों को मेंटेनेंस की दिक्कत हो रही है,Hostel,Low,Hindi
 प्राध्यापकांनी अद्याप हजेरी अद्ययावत केली नाही,Academic,Medium,Marathi
 सेंट्रल लाइब्रेरी में टूटे हुए डेस्क और बेंच की मरम्मत चाहिए,Infrastructure,Low,Hindi
 Block A mein wifi password work nahi kar raha hai,IT & Wi-Fi,Low,Hinglish
 ब्लॉक ए में इंटरनेट कनेक्शन बहुत धीमा चल रहा है,IT & Wi-Fi,Medium,Hindi
 Hostel bathroom ki urgent safai chahiye,Hostel,Low,Hinglish
-There is a power problem in Block C hostel,Hostel,Low,English
+Hostel mess food quality is spoiled in Block C,Hostel,Low,English
 शाम के समय घर जाने के लिए कोई बस नहीं मिलती,Transport,Medium,Hindi
 मुख्य इमारत वसतिगृहातील वॉटर कुलर बंद पडला आहे,Hostel,Low,Marathi
 Transport schedule galat diya gaya hai,Transport,Low,Hinglish
@@ -232,7 +232,7 @@ Transport schedule galat diya gaya hai,Transport,Low,Hinglish
 मुख्य इमारत मध्ये वाय-फाय व्यवस्थित चालत नाही आहे,IT & Wi-Fi,Medium,Marathi
 Bus driver Workshop stop par bus nahi rokta,Transport,Medium,Hinglish
 प्राध्यापकांनी अद्याप हजेरी अद्ययावत केली नाही,Academic,Medium,Marathi
-Accident: My attendance is incorrect in Boys Hostel,Academic,High,English
+Accident: Internal marks are missing for Boys Hostel,Academic,High,English
 कंप्यूटर लैब के लिए कोर्स सामग्री और नोट्स उपलब्ध नहीं हैं,Academic,Medium,Hindi
 माझ्या वर्गाच्या वेळापत्रकात समस्या आहे,Academic,Medium,Marathi
 Danger: Main Main Building course ke liye registration nahi kar pa raha,Academic,High,Hinglish
@@ -243,63 +243,63 @@ Classroom ka fan damaged hai,Infrastructure,Low,Hinglish
 बस रोजाना बहुत लेट हो जाती है,Transport,Medium,Hindi
 College bus daily regular time par nahi aati,Transport,Medium,Hinglish
 सेंट्रल लाइब्रेरी हॉस्टल में छात्रों को मेंटेनेंस की दिक्कत हो रही है,Hostel,Low,Hindi
-Emergency: Hostel room light is not working,Hostel,High,English
-Unable to access the course material for Block C,Academic,Medium,English
+Emergency: Hostel room window latch is broken in Block D,Hostel,High,English
+There is an issue with my timetable in Block C,Academic,Medium,English
 ब्लॉक डी मध्ये वाय-फाय पासवर्ड काम करत नाही,IT & Wi-Fi,Medium,Marathi
 Girls Hostel mein classroom lights kharab hain,Infrastructure,Low,Hinglish
-The classroom fan is damaged,Infrastructure,Medium,English
-Emergency: Classroom projector is not working in Computer Lab,Infrastructure,High,English
+The laboratory equipment needs repair in Workshop,Infrastructure,Medium,English
+Emergency: Lights are not working in Computer Lab,Infrastructure,High,English
 Portal par mere marks show nahi ho rahe hain,Academic,Low,Hinglish
 वैद्यकीय आणीबाणी: जिन्याचा कठडा तुटलेला असून धोकादायक आहे,Infrastructure,High,Marathi
 Wi-Fi is not working in Girls Hostel,IT & Wi-Fi,Low,English
 ब्लॉक सी मध्ये वाय-फाय पासवर्ड काम करत नाही,IT & Wi-Fi,Medium,Marathi
-The bus route for Central Library is not available,Transport,Medium,English
+Bus driver is skipping the Central Library stop,Transport,Medium,English
 मैं ब्लॉक डी विषय और कोर्स के लिए रजिस्टर नहीं कर पा रहा हूँ,Academic,Medium,Hindi
 वर्गाचा मुख्य दरवाजा तुटला आहे,Infrastructure,Medium,Marathi
 Campus internet band ho gaya hai Main Building mein,IT & Wi-Fi,Medium,Hinglish
 शाम के समय घर जाने के लिए कोई बस नहीं मिलती,Transport,Medium,Hindi
-My marks are not visible on the portal,Academic,Medium,English
+Course syllabus and lecture slides not uploaded for Main Building,Academic,Medium,English
 सेंट्रल लाइब्रेरी में वाई-फाई पासवर्ड काम नहीं कर रहा,IT & Wi-Fi,Medium,Hindi
-I cannot register for Seminar Hall course,Academic,Medium,English
+Hall ticket for upcoming end-semester exam not generated for Seminar Hall,Academic,Medium,English
 मुलींचे वसतिगृह वसतिगृहात विद्यार्थ्यांना देखभालीच्या समस्या येत आहेत,Hostel,Medium,Marathi
 Boys Hostel hostel room ka fan nahi chal raha hai,Hostel,Low,Hinglish
 Block D hostel mein bijli ki problem hai,Hostel,Medium,Hinglish
-Immediately: The staircase railing is damaged,Infrastructure,High,English
+Immediately: Ceiling plaster fell down on desks in Girls Hostel,Infrastructure,High,English
 शाम के समय घर जाने के लिए कोई बस नहीं मिलती,Transport,Low,Hindi
-The exam schedule has a problem,Academic,Medium,English
-Teacher has not updated attendance,Academic,Low,English
+Teacher has not updated attendance in Science Building,Academic,Medium,English
+Professor cancelled lecture without notice in Computer Lab,Academic,Low,English
 Block D mein classroom projector kaam nahi kar raha hai,Infrastructure,Medium,Hinglish
 Campus internet band ho gaya hai Science Building mein,IT & Wi-Fi,Medium,Hinglish
 Suraksha problem: Main Block B course ke liye registration nahi kar pa raha,Academic,High,Hinglish
-The internet keeps disconnecting in Seminar Hall,IT & Wi-Fi,Medium,English
+Cannot connect to eduroam on laptop near Seminar Hall,IT & Wi-Fi,Medium,English
 Teacher ne abhi tak attendance update nahi ki hai,Academic,Medium,Hinglish
 ब्लॉक डी में वाई-फाई पासवर्ड काम नहीं कर रहा,IT & Wi-Fi,Medium,Hindi
 पोर्टल पर मेरे परीक्षा के मार्क्स नहीं दिख रहे हैं,Academic,Medium,Hindi
 हॉस्टल के बाथरूम की तुरंत सफाई की जरूरत है,Hostel,Medium,Hindi
 Central Library hostel mein paani bilkul nahi aa raha hai,Hostel,Medium,Hinglish
-The exam schedule has a problem,Academic,Low,English
+Teacher has not updated attendance in Seminar Hall,Academic,Low,English
 क्लासरूम का मुख्य दरवाजा टूटा हुआ है,Infrastructure,Medium,Hindi
 कॅम्पस इंटरनेट अचानक बंद पडले आहे ब्लॉक बी मध्ये,IT & Wi-Fi,Medium,Marathi
 Urgent: Science Building mein meri attendance galat dikha raha hai,Academic,High,Hinglish
 प्रोफेसर ने अभी तक अटेंडेंस अपडेट नहीं की है,Academic,Medium,Hindi
 Block A mein internet baar baar disconnect ho raha hai,IT & Wi-Fi,Medium,Hinglish
 बॉयज हॉस्टल हॉस्टल के कमरे में पंखा नहीं चल रहा है,Hostel,Medium,Hindi
-The internet keeps disconnecting in Block C,IT & Wi-Fi,Medium,English
+Cannot connect to eduroam on laptop near Block C,IT & Wi-Fi,Medium,English
 आपातकालीन: आज कॉलेज की बस सेवा उपलब्ध नहीं है,Transport,High,Hindi
 Block D ke liye college bus route available nahi hai,Transport,Medium,Hinglish
 ब्लॉक डी इमारतीत दुरुस्ती आणि देखभालीची समस्या आहे,Infrastructure,Medium,Marathi
-The internet keeps disconnecting in Block A,IT & Wi-Fi,Medium,English
-My marks are not visible on the portal,Academic,Low,English
+Cannot connect to eduroam on laptop near Block A,IT & Wi-Fi,Medium,English
+Course registration portal crashed before deadline in Block C,Academic,Low,English
 Computer Lab hostel mein bijli ki problem hai,Hostel,Medium,Hinglish
 वसतिगृहाच्या खोलीतील नळ गळत आहे,Hostel,Low,Marathi
 Computer Lab ke liye college bus route available nahi hai,Transport,Medium,Hinglish
 परीक्षेच्या वेळापत्रकात मोठी चूक आहे,Academic,Medium,Marathi
 ब्लॉक बी मध्ये वाय-फाय पासवर्ड काम करत नाही,IT & Wi-Fi,Medium,Marathi
-Students are facing maintenance problems in Block B hostel,Hostel,Medium,English
+Hostel room fan regulator is stuck in Block B,Hostel,Medium,English
 Classroom ka fan damaged hai,Infrastructure,Medium,Hinglish
-There is an issue with my timetable,Academic,Low,English
+Continuous assessment internal marks missing for Block B,Academic,Low,English
 मुलींचे वसतिगृह साठी कॉलेज बस मार्ग उपलब्ध नाही,Transport,Medium,Marathi
-Unsafe: There is a power problem in Block B hostel,Hostel,High,English
+Unsafe: Hostel geyser not heating water in Block B bathroom,Hostel,High,English
 गर्ल्स हॉस्टल के पास कैंपस वाई-फाई से कनेक्ट नहीं हो पा रहा है,IT & Wi-Fi,Medium,Hindi
 ब्लॉक बी इमारतीत दुरुस्ती आणि देखभालीची समस्या आहे,Infrastructure,Low,Marathi
 बॉयज हॉस्टल हॉस्टल में बिजली की समस्या है,Hostel,Low,Hindi
@@ -309,17 +309,17 @@ Unsafe: There is a power problem in Block B hostel,Hostel,High,English
 Boys Hostel ke liye college bus route available nahi hai,Transport,Medium,Hinglish
 मैं बॉयज हॉस्टल विषय और कोर्स के लिए रजिस्टर नहीं कर पा रहा हूँ,Academic,Medium,Hindi
 वर्कशॉप में टूटे हुए डेस्क और बेंच की मरम्मत चाहिए,Infrastructure,Medium,Hindi
-Internet connection is very slow in Seminar Hall,IT & Wi-Fi,Medium,English
-Unable to access the course material for Science Building,Academic,Medium,English
+Unable to connect to campus Wi-Fi near Seminar Hall,IT & Wi-Fi,Medium,English
+There is an issue with my timetable in Science Building,Academic,Medium,English
 Science Building mein toote hue desk aur benches repair hone chahiye,Infrastructure,Medium,Hinglish
 वर्गातील पंखा नादुरुस्त झाला आहे,Infrastructure,Medium,Marathi
 Block D ke liye college bus route available nahi hai,Transport,Medium,Hinglish
-Hostel bathroom needs urgent cleaning,Hostel,Medium,English
-Unsafe: Computer lab network is down in Girls Hostel,IT & Wi-Fi,High,English
+Hostel room light is not working in Central Library,Hostel,Medium,English
+Unsafe: Wi-Fi password is not working in Girls Hostel,IT & Wi-Fi,High,English
 Block A ke liye college bus route available nahi hai,Transport,Medium,Hinglish
-Bus service is unavailable today,Transport,Low,English
+Route bus broke down with flat tyre near Seminar Hall,Transport,Low,English
 दुर्घटना: ब्लॉक ए में इंटरनेट नेटवर्क उपलब्ध नहीं है,IT & Wi-Fi,High,Hindi
-The hostel room tap is leaking,Hostel,Medium,English
+Severe drinking water shortage in Computer Lab hostel,Hostel,Medium,English
 सुरक्षा समस्या: हॉस्टल रूम की लाइट खराब हो गई है,Hostel,High,Hindi
 Class timetable mein clash aur problem hai,Academic,Medium,Hinglish
 Teacher ne abhi tak attendance update nahi ki hai,Academic,Medium,Hinglish
@@ -328,31 +328,31 @@ Teacher ne abhi tak attendance update nahi ki hai,Academic,Medium,Hinglish
 वर्कशॉप में वाई-फाई काम नहीं कर रहा है,IT & Wi-Fi,Medium,Hindi
 Hostel room ki light kaam nahi kar rahi,Hostel,Medium,Hinglish
 मेडिकल इमरजेंसी: प्रयोगशाला के उपकरण टूटे हुए हैं और मरम्मत चाहिए,Infrastructure,High,Hindi
-I cannot register for Science Building course,Academic,Medium,English
+Hall ticket for upcoming end-semester exam not generated for Science Building,Academic,Medium,English
 मुलांचे वसतिगृह साठी कॉलेज बस मार्ग उपलब्ध नाही,Transport,Low,Marathi
 मुलींचे वसतिगृह मध्ये वाय-फाय पासवर्ड काम करत नाही,IT & Wi-Fi,Medium,Marathi
 ब्लॉक डी में इंटरनेट नेटवर्क उपलब्ध नहीं है,IT & Wi-Fi,Low,Hindi
 आपातकालीन: सेमिनार हॉल हॉस्टल में पानी की कोई सप्लाई नहीं आ रही है,Hostel,High,Hindi
 बस सतत उशिरा धावत आहे,Transport,Low,Marathi
 मुलांचे वसतिगृह चा अभ्यासक्रम आणि साहित्य उपलब्ध होत नाही,Academic,Low,Marathi
-Campus internet has stopped working in Girls Hostel,IT & Wi-Fi,Medium,English
+Student email server not sending verification codes in Girls Hostel,IT & Wi-Fi,Medium,English
 Suraksha problem: Block D hostel mein bijli ki problem hai,Hostel,High,Hinglish
 मेडिकल इमरजेंसी: हॉस्टल रूम की लाइट खराब हो गई है,Hostel,High,Hindi
 मुख्य इमारत वसतिगृहाच्या खोलीत पंखा चालत नाही,Hostel,Medium,Marathi
-The bus route for Central Library is not available,Transport,Medium,English
-Wi-Fi password is not working in Block D,IT & Wi-Fi,Medium,English
-The water cooler is not working in Block C hostel,Hostel,Medium,English
-College bus is overcrowded,Transport,Medium,English
-There is a power problem in Computer Lab hostel,Hostel,Medium,English
+Bus driver is skipping the Central Library stop,Transport,Medium,English
+Computer lab network switch is dead in Block D,IT & Wi-Fi,Medium,English
+Students are facing maintenance problems in Block C hostel,Hostel,Medium,English
+Bus service is unavailable today for Boys Hostel,Transport,Medium,English
+Hostel geyser not heating water in Computer Lab bathroom,Hostel,Medium,English
 सेंट्रल लाइब्रेरी में क्लासरूम का प्रोजेक्टर काम नहीं कर रहा है,Infrastructure,Medium,Hindi
 महाविद्यालयाच्या बसमध्ये प्रचंड गर्दी असते,Transport,Medium,Marathi
 वैद्यकीय आणीबाणी: ब्लॉक सी चे अंतर्गत गुण पोर्टलवर दिसत नाहीत,Academic,High,Marathi
 आग: विज्ञान इमारत मध्ये नेटवर्क सेवा पूर्णपणे बंद आहे,IT & Wi-Fi,High,Marathi
 मुलांचे वसतिगृह जवळ कॅम्पस वाय-फाय कनेक्ट होत नाही,IT & Wi-Fi,Medium,Marathi
-Hostel room light is not working,Hostel,Medium,English
+Hostel laundry washing machines are out of order in Boys Hostel,Hostel,Medium,English
 क्लासरूम का पंखा पूरी तरह से खराब हो गया है,Infrastructure,Medium,Hindi
-The staircase railing is damaged,Infrastructure,Medium,English
-Fire: Bus driver is skipping the Computer Lab stop,Transport,High,English
+Ceiling plaster fell down on desks in Seminar Hall,Infrastructure,Medium,English
+Fire: The bus has frequent delays near Computer Lab,Transport,High,English
 महाविद्यालयाची बस खूप उशिरा येत आहे,Transport,Medium,Marathi
 साइंस बिल्डिंग में क्लास की लाइटें खराब पड़ी हैं,Infrastructure,Medium,Hindi
 ब्लॉक सी वसतिगृहातील वॉटर कुलर बंद पडला आहे,Hostel,Medium,Marathi
@@ -362,13 +362,13 @@ Fire: Bus driver is skipping the Computer Lab stop,Transport,High,English
 वाहतुकीचे वेळापत्रक चुकीचे प्रसिद्ध केले आहे,Transport,Medium,Marathi
 Medical Emergency: Classroom ka door toota hua hai,Infrastructure,High,Hinglish
 ब्लॉक बी में वाई-फाई पासवर्ड काम नहीं कर रहा,IT & Wi-Fi,Medium,Hindi
-The classroom door is broken,Infrastructure,Medium,English
+Laboratory chemical fume hood fan not functioning in Block D,Infrastructure,Medium,English
 प्रयोगशाळेतील उपकरणे नादुरुस्त आहेत,Infrastructure,Medium,Marathi
-The staircase railing is damaged,Infrastructure,Medium,English
+Ceiling plaster fell down on desks in Girls Hostel,Infrastructure,Medium,English
 ब्लॉक सी के लिए कॉलेज बस का रूट उपलब्ध नहीं है,Transport,Medium,Hindi
 आग: हॉस्टल के कमरे का नल लगातार लीक हो रहा है,Hostel,High,Hindi
 Seminar Hall hostel ka water cooler kharab ho gaya hai,Hostel,Medium,Hinglish
-Security: Broken desks need repair in Block A,Infrastructure,High,English
+Security: The staircase railing is damaged in Block A,Infrastructure,High,English
 Evening time me return ke liye koi bus nahi hai,Transport,Low,Hinglish
 तुरंत: हॉस्टल के कमरे का नल लगातार लीक हो रहा है,Hostel,High,Hindi
 आग: ब्लॉक ए मध्ये वाय-फाय व्यवस्थित चालत नाही आहे,IT & Wi-Fi,High,Marathi
@@ -378,23 +378,23 @@ Classroom ka door toota hua hai,Infrastructure,Medium,Hinglish
 गर्ल्स हॉस्टल हॉस्टल में पानी की कोई सप्लाई नहीं आ रही है,Hostel,Medium,Hindi
 संगणक प्रयोगशाळा वसतिगृहात विद्यार्थ्यांना देखभालीच्या समस्या येत आहेत,Hostel,Medium,Marathi
 आग: क्लासरूम का मुख्य दरवाजा टूटा हुआ है,Infrastructure,High,Hindi
-Bus service is unavailable today,Transport,Medium,English
+Bus pass online renewal portal server error for Block C,Transport,Medium,English
 वसतिगृहाच्या खोलीतील लाईट बंद झाली आहे,Hostel,Medium,Marathi
 ब्लॉक बी मध्ये वाय-फाय व्यवस्थित चालत नाही आहे,IT & Wi-Fi,Medium,Marathi
 ब्लॉक डी में वाई-फाई पासवर्ड काम नहीं कर रहा,IT & Wi-Fi,Medium,Hindi
 बस सतत उशिरा धावत आहे,Transport,Medium,Marathi
 बस चालक मुलांचे वसतिगृह थांब्यावर बस थांबवत नाही,Transport,Medium,Marathi
 क्लासरूम का मुख्य दरवाजा टूटा हुआ है,Infrastructure,Medium,Hindi
-Network access is unavailable in Central Library,IT & Wi-Fi,Medium,English
+VPN access to campus network is failing near Central Library,IT & Wi-Fi,Medium,English
 Class timetable mein clash aur problem hai,Academic,Low,Hinglish
 सुरक्षा समस्या: विज्ञान इमारत मध्ये इंटरनेट कनेक्शन खूप स्लो चालू आहे,IT & Wi-Fi,High,Marathi
-Hostel room light is not working,Hostel,Medium,English
+Hostel laundry washing machines are out of order in Central Library,Hostel,Medium,English
 कार्यशाळा मधील तुटलेले बाक आणि बाकडे दुरुस्त करा,Infrastructure,Medium,Marathi
-The classroom fan is damaged,Infrastructure,Medium,English
+The classroom door is broken in Central Library,Infrastructure,Medium,English
 मी मध्यवर्ती ग्रंथालय या अभ्यासक्रमासाठी नोंदणी करू शकत नाही आहे,Academic,Medium,Marathi
 हॉस्टल के कमरे का नल लगातार लीक हो रहा है,Hostel,Medium,Hindi
 ब्लॉक सी में टूटे हुए डेस्क और बेंच की मरम्मत चाहिए,Infrastructure,Medium,Hindi
-Internet connection is very slow in Science Building,IT & Wi-Fi,Low,English
+Unable to connect to campus Wi-Fi near Science Building,IT & Wi-Fi,Low,English
 Science Building ke internal marks portal par upload nahi hue,Academic,Medium,Hinglish
 साइंस बिल्डिंग में कंप्यूटर लैब का नेटवर्क डाउन है,IT & Wi-Fi,Medium,Hindi
 सुरक्षा समस्या: बस ड्राइवर साइंस बिल्डिंग स्टॉप को छोड़ कर चला जाता है,Transport,High,Hindi
@@ -403,50 +403,50 @@ Hostel room ka tap leak ho raha hai,Hostel,Medium,Hinglish
 शाम के समय घर जाने के लिए कोई बस नहीं मिलती,Transport,Medium,Hindi
 सुरक्षा समस्या: वर्गातील पंखा नादुरुस्त झाला आहे,Infrastructure,High,Marathi
 Exam schedule mein timetable ki issue hai,Academic,Low,Hinglish
-Immediately: The laboratory equipment needs repair,Infrastructure,High,English
+Immediately: Classroom projector bulb is fused in Main Building,Infrastructure,High,English
 संगणक प्रयोगशाळा साठी कॉलेज बस मार्ग उपलब्ध नाही,Transport,Medium,Marathi
 कॉलेज बस में बहुत ज्यादा भीड़ रहती है,Transport,Medium,Hindi
-There is no bus during the evening,Transport,Medium,English
+College bus driver routinely skips the pickup stop at Seminar Hall,Transport,Medium,English
 सेंट्रल लाइब्रेरी में इंटरनेट बार-बार कट रहा है,IT & Wi-Fi,Medium,Hindi
-Classroom projector is not working in Block B,Infrastructure,Medium,English
+Lights are not working in Block B,Infrastructure,Medium,English
 सीढ़ियों की रेलिंग टूट गई है और खतरनाक है,Infrastructure,Medium,Hindi
 पोर्टल पर मेरे परीक्षा के मार्क्स नहीं दिख रहे हैं,Academic,Medium,Hindi
 Block C hostel room ka fan nahi chal raha hai,Hostel,Medium,Hinglish
 बस रोजाना बहुत लेट हो जाती है,Transport,Medium,Hindi
-I cannot register for Workshop course,Academic,Medium,English
+Attendance percentage showing below eligibility criteria in Workshop,Academic,Medium,English
 Science Building mein classroom projector kaam nahi kar raha hai,Infrastructure,Low,Hinglish
 आग: बस रोजाना बहुत लेट हो जाती है,Transport,High,Hindi
 Seminar Hall mein computer lab ka network down hai,IT & Wi-Fi,Low,Hinglish
 आग: ब्लॉक ए साठी कॉलेज बस मार्ग उपलब्ध नाही,Transport,High,Marathi
-Computer lab network is down in Girls Hostel,IT & Wi-Fi,Medium,English
+The internet keeps disconnecting in Girls Hostel,IT & Wi-Fi,Medium,English
 Bus driver Seminar Hall stop par bus nahi rokta,Transport,Medium,Hinglish
 प्रयोगशाला के उपकरण टूटे हुए हैं और मरम्मत चाहिए,Infrastructure,Medium,Hindi
 Laboratory ke equipment aur apparatus kharab hain,Infrastructure,Low,Hinglish
 महाविद्यालयाची बस खूप उशिरा येत आहे,Transport,Medium,Marathi
 प्रयोगशाळेतील उपकरणे नादुरुस्त आहेत,Infrastructure,Medium,Marathi
-The transport schedule is incorrect,Transport,Low,English
+College shuttle van from metro delayed at Block C,Transport,Low,English
 बस सतत उशिरा धावत आहे,Transport,Medium,Marathi
 परीक्षा टाइमटेबल और शेड्यूल में समस्या है,Academic,Medium,Hindi
 Urgent: College bus bahut late aa rahi hai,Transport,High,Hinglish
-Fire: The bus route for Block B is not available,Transport,High,English
+Fire: College bus is overcrowded near Block B,Transport,High,English
 संगणक प्रयोगशाळा मध्ये माझी हजेरी चुकीची नोंदवली आहे,Academic,Medium,Marathi
-Internal marks are missing for Girls Hostel,Academic,Medium,English
-Immediately: The laboratory equipment needs repair,Infrastructure,High,English
+Unable to access the course material for Girls Hostel,Academic,Medium,English
+Immediately: Staircase emergency exit door is jammed shut in Seminar Hall,Infrastructure,High,English
 हॉस्टल रूम की लाइट खराब हो गई है,Hostel,Low,Hindi
 आपातकालीन: वर्कशॉप में टूटे हुए डेस्क और बेंच की मरम्मत चाहिए,Infrastructure,High,Hindi
 कैंपस इंटरनेट अचानक बंद हो गया है गर्ल्स हॉस्टल में,IT & Wi-Fi,Medium,Hindi
 गर्ल्स हॉस्टल हॉस्टल में छात्रों को मेंटेनेंस की दिक्कत हो रही है,Hostel,Low,Hindi
 Teacher ne abhi tak attendance update nahi ki hai,Academic,Medium,Hinglish
 Hostel room ki light kaam nahi kar rahi,Hostel,Medium,Hinglish
-Internal marks are missing for Main Building,Academic,Medium,English
+The exam schedule has a problem in Main Building,Academic,Medium,English
 आपातकालीन: साइंस बिल्डिंग हॉस्टल के कमरे में पंखा नहीं चल रहा है,Hostel,High,Hindi
 तुरंत: पोर्टल पर मेरे परीक्षा के मार्क्स नहीं दिख रहे हैं,Academic,High,Hindi
-Classroom projector is not working in Block A,Infrastructure,Medium,English
+Lights are not working in Block A,Infrastructure,Medium,English
 शाम के समय घर जाने के लिए कोई बस नहीं मिलती,Transport,Medium,Hindi
 Science Building mein computer lab ka network down hai,IT & Wi-Fi,Low,Hinglish
 परीक्षा टाइमटेबल और शेड्यूल में समस्या है,Academic,Medium,Hindi
-The water cooler is not working in Girls Hostel hostel,Hostel,Medium,English
-Immediately: College bus is overcrowded,Transport,High,English
+Students are facing maintenance problems in Girls Hostel hostel,Hostel,Medium,English
+Immediately: The transport schedule is incorrect for Main Building,Transport,High,English
 वाहतुकीचे वेळापत्रक चुकीचे प्रसिद्ध केले आहे,Transport,Medium,Marathi
 Portal par mere marks show nahi ho rahe hain,Academic,Medium,Hinglish
 Boys Hostel ke internal marks portal par upload nahi hue,Academic,Low,Hinglish
@@ -457,10 +457,10 @@ College bus bohot overcrowded rehti hai,Transport,Low,Hinglish
 सुरक्षा समस्या: कार्यशाळा मध्ये संगणक प्रयोगशाळेचे नेटवर्क बंद पडले आहे,IT & Wi-Fi,High,Marathi
 प्राध्यापकांनी अद्याप हजेरी अद्ययावत केली नाही,Academic,Medium,Marathi
 Seminar Hall hostel mein maintenance ki dikkat aa rahi hai,Hostel,Medium,Hinglish
-The classroom fan is damaged,Infrastructure,Medium,English
+The laboratory equipment needs repair in Block A,Infrastructure,Medium,English
 Suraksha problem: Science Building mein internet connection bohot slow chal raha hai,IT & Wi-Fi,High,Hinglish
 सेमिनार हॉल में मेरी अटेंडेंस गलत दर्ज की गई है,Academic,Medium,Hindi
-Internal marks are missing for Main Building,Academic,Medium,English
+Unable to access the course material for Main Building,Academic,Medium,English
 धोका: पोर्टलवर परीक्षेचे गुण दिसत नाहीत,Academic,High,Marathi
 बॉयज हॉस्टल में वाई-फाई काम नहीं कर रहा है,IT & Wi-Fi,Medium,Hindi
 खतरा: प्रोफेसर ने अभी तक अटेंडेंस अपडेट नहीं की है,Academic,High,Hindi
@@ -469,90 +469,90 @@ Internal marks are missing for Main Building,Academic,Medium,English
 Computer Lab ke internal marks portal par upload nahi hue,Academic,Medium,Hinglish
 Wi-Fi is not working in Block B,IT & Wi-Fi,Medium,English
 Hostel room ka tap leak ho raha hai,Hostel,Medium,Hinglish
-Immediately: The classroom door is broken,Infrastructure,High,English
+Immediately: Laboratory chemical fume hood fan not functioning in Block C,Infrastructure,High,English
 असुरक्षित: साइंस बिल्डिंग के लिए कोर्स सामग्री और नोट्स उपलब्ध नहीं हैं,Academic,High,Hindi
-My attendance is incorrect in Block A,Academic,Medium,English
-Wi-Fi password is not working in Block B,IT & Wi-Fi,Low,English
+Internal marks are missing for Block A,Academic,Medium,English
+Computer lab network switch is dead in Block B,IT & Wi-Fi,Low,English
 असुरक्षित: ब्लॉक सी मधील वर्गातील प्रोजेक्टर व्यवस्थित चालत नाही,Infrastructure,High,Marathi
-The water cooler is not working in Block B hostel,Hostel,Medium,English
+The hostel room tap is leaking in Block B,Hostel,Medium,English
 Block D ke liye college bus route available nahi hai,Transport,Medium,Hinglish
 ब्लॉक बी चे अंतर्गत गुण पोर्टलवर दिसत नाहीत,Academic,Medium,Marathi
 Computer Lab mein wifi password work nahi kar raha hai,IT & Wi-Fi,Medium,Hinglish
 Emergency: College bus bohot overcrowded rehti hai,Transport,High,Hinglish
 Classroom ka door toota hua hai,Infrastructure,Medium,Hinglish
-College bus is overcrowded,Transport,Low,English
-The bus route for Main Building is not available,Transport,Medium,English
-My marks are not visible on the portal,Academic,Medium,English
+Bus service is unavailable today for Girls Hostel,Transport,Low,English
+Bus driver is skipping the Main Building stop,Transport,Medium,English
+Course registration portal crashed before deadline in Block C,Academic,Medium,English
 Computer Lab mein network connectivity ki bahut dikkat hai,IT & Wi-Fi,Medium,Hinglish
 मुख्य इमारत वसतिगृहात विजेची मोठी अडचण आहे,Hostel,Medium,Marathi
 असुरक्षित: परीक्षेच्या वेळापत्रकात मोठी चूक आहे,Academic,High,Marathi
 गर्ल्स हॉस्टल में टूटे हुए डेस्क और बेंच की मरम्मत चाहिए,Infrastructure,Medium,Hindi
 Khatra: Block D mein meri attendance galat dikha raha hai,Academic,High,Hinglish
-Medical: Wi-Fi is not working in Block D,IT & Wi-Fi,High,English
+Medical: Internet connection is very slow in Block D,IT & Wi-Fi,High,English
 Central Library ke internal marks portal par upload nahi hue,Academic,Medium,Hinglish
-The internet keeps disconnecting in Seminar Hall,IT & Wi-Fi,Medium,English
-The transport schedule is incorrect,Transport,Medium,English
-Emergency: Unable to connect to campus Wi-Fi near Computer Lab,IT & Wi-Fi,High,English
+Wi-Fi router in Seminar Hall keeps restarting and dropping connections,IT & Wi-Fi,Medium,English
+College shuttle van from metro delayed at Computer Lab,Transport,Medium,English
+Emergency: Campus internet has stopped working in Computer Lab,IT & Wi-Fi,High,English
 बस सतत उशिरा धावत आहे,Transport,Medium,Marathi
-Immediately: My marks are not visible on the portal,Academic,High,English
+Immediately: Course registration portal crashed before deadline in Block C,Academic,High,English
 विज्ञान इमारत वसतिगृहातील वॉटर कुलर बंद पडला आहे,Hostel,Medium,Marathi
 Seminar Hall mein internet baar baar disconnect ho raha hai,IT & Wi-Fi,Medium,Hinglish
 प्रयोगशाळेतील उपकरणे नादुरुस्त आहेत,Infrastructure,Low,Marathi
 आणीबाणी: आज कॉलेज बस सेवा बंद आहे,Transport,High,Marathi
 ब्लॉक सी में टूटे हुए डेस्क और बेंच की मरम्मत चाहिए,Infrastructure,Medium,Hindi
 ब्लॉक सी मध्ये माझी हजेरी चुकीची नोंदवली आहे,Academic,Medium,Marathi
-There is no bus during the evening,Transport,Medium,English
+AC in executive campus shuttle is not cooling near Computer Lab,Transport,Medium,English
 माझ्या वर्गाच्या वेळापत्रकात समस्या आहे,Academic,Medium,Marathi
 Block D hostel room ka fan nahi chal raha hai,Hostel,Medium,Hinglish
 खतरा: बस रोजाना बहुत लेट हो जाती है,Transport,High,Hindi
-The classroom fan is damaged,Infrastructure,Low,English
-There is no bus during the evening,Transport,Medium,English
+The classroom door is broken in Workshop,Infrastructure,Low,English
+AC in executive campus shuttle is not cooling near Block B,Transport,Medium,English
 मध्यवर्ती ग्रंथालय मधील वर्गाचे दिवे नादुरुस्त आहेत,Infrastructure,Low,Marathi
-The bus route for Block D is not available,Transport,Medium,English
+Bus driver is skipping the Block D stop,Transport,Medium,English
 असुरक्षित: महाविद्यालयाची बस खूप उशिरा येत आहे,Transport,High,Marathi
 प्रयोगशाला के उपकरण टूटे हुए हैं और मरम्मत चाहिए,Infrastructure,Medium,Hindi
 अपघात: मुख्य इमारत चा अभ्यासक्रम आणि साहित्य उपलब्ध होत नाही,Academic,High,Marathi
-The water cooler is not working in Seminar Hall hostel,Hostel,Low,English
+Students are facing maintenance problems in Seminar Hall hostel,Hostel,Low,English
 कॉलेज बस बहुत देरी से आ रही है,Transport,Low,Hindi
 Emergency: Science Building mein internet connection bohot slow chal raha hai,IT & Wi-Fi,High,Hinglish
-Bus driver is skipping the Boys Hostel stop,Transport,Medium,English
+The bus has frequent delays near Boys Hostel,Transport,Medium,English
 सुरक्षा समस्या: पोर्टल पर मेरे परीक्षा के मार्क्स नहीं दिख रहे हैं,Academic,High,Hindi
 असुरक्षित: ब्लॉक बी वसतिगृहात विद्यार्थ्यांना देखभालीच्या समस्या येत आहेत,Hostel,High,Marathi
 हॉस्टल के बाथरूम की तुरंत सफाई की जरूरत है,Hostel,Medium,Hindi
-There is a power problem in Boys Hostel hostel,Hostel,Medium,English
+Hostel mess food quality is spoiled in Boys Hostel,Hostel,Medium,English
 सेंट्रल लाइब्रेरी में क्लासरूम का प्रोजेक्टर काम नहीं कर रहा है,Infrastructure,Medium,Hindi
 संध्याकाळी कॅम्पसवरून जाण्यासाठी कोणतीही बस नाही,Transport,Low,Marathi
 गर्ल्स हॉस्टल के इंटरनल मार्क्स पोर्टल पर गायब हैं,Academic,Medium,Hindi
 प्रयोगशाळेतील उपकरणे नादुरुस्त आहेत,Infrastructure,Medium,Marathi
 जिन्याचा कठडा तुटलेला असून धोकादायक आहे,Infrastructure,Medium,Marathi
 Urgent: Girls Hostel ke liye college bus route available nahi hai,Transport,High,Hinglish
-The hostel room tap is leaking,Hostel,Low,English
+Water cooler is leaking on the floor in Main Building hostel,Hostel,Low,English
 क्लासरूम का मुख्य दरवाजा टूटा हुआ है,Infrastructure,Medium,Hindi
-Broken desks need repair in Girls Hostel,Infrastructure,Medium,English
-The internet keeps disconnecting in Block C,IT & Wi-Fi,Medium,English
+There is a maintenance issue in Girls Hostel building,Infrastructure,Medium,English
+Cannot connect to eduroam on laptop near Block C,IT & Wi-Fi,Medium,English
 Block D mein internet baar baar disconnect ho raha hai,IT & Wi-Fi,Medium,Hinglish
-My attendance is incorrect in Block D,Academic,Medium,English
+Internal marks are missing for Block D,Academic,Medium,English
 Jaldi: Class timetable mein clash aur problem hai,Academic,High,Hinglish
 वर्कशॉप बिल्डिंग में मेंटेनेंस और मरम्मत की समस्या है,Infrastructure,Low,Hindi
 ब्लॉक सी में इंटरनेट नेटवर्क उपलब्ध नहीं है,IT & Wi-Fi,Medium,Hindi
 कार्यशाळा मध्ये नेटवर्क सेवा पूर्णपणे बंद आहे,IT & Wi-Fi,Low,Marathi
 Khatra: Portal par mere marks show nahi ho rahe hain,Academic,High,Hinglish
 मेन बिल्डिंग के लिए कॉलेज बस का रूट उपलब्ध नहीं है,Transport,Medium,Hindi
-College bus is overcrowded,Transport,Medium,English
+Bus service is unavailable today for Main Building,Transport,Medium,English
 Block B mein meri attendance galat dikha raha hai,Academic,Medium,Hinglish
 Evening time me return ke liye koi bus nahi hai,Transport,Medium,Hinglish
-Teacher has not updated attendance,Academic,Low,English
-The classroom fan is damaged,Infrastructure,Medium,English
+Final examination marksheet contains wrong grade in Main Building,Academic,Low,English
+The laboratory equipment needs repair in Science Building,Infrastructure,Medium,English
 परीक्षा टाइमटेबल और शेड्यूल में समस्या है,Academic,Medium,Hindi
 बस ड्राइवर सेमिनार हॉल स्टॉप को छोड़ कर चला जाता है,Transport,Medium,Hindi
 मेन बिल्डिंग के पास कैंपस वाई-फाई से कनेक्ट नहीं हो पा रहा है,IT & Wi-Fi,Medium,Hindi
-My marks are not visible on the portal,Academic,Medium,English
+Course syllabus and lecture slides not uploaded for Block B,Academic,Medium,English
 मेडिकल इमरजेंसी: ब्लॉक ए में क्लास की लाइटें खराब पड़ी हैं,Infrastructure,High,Hindi
 Computer Lab hostel mein paani bilkul nahi aa raha hai,Hostel,Medium,Hinglish
 प्रोफेसर ने अभी तक अटेंडेंस अपडेट नहीं की है,Academic,Medium,Hindi
 Hostel room ka tap leak ho raha hai,Hostel,Medium,Hinglish
 Khatra: Girls Hostel mein network connectivity ki bahut dikkat hai,IT & Wi-Fi,High,Hinglish
-Emergency: There is a power problem in Block B hostel,Hostel,High,English
+Emergency: Hostel geyser not heating water in Block B bathroom,Hostel,High,English
 Block A mein internet baar baar disconnect ho raha hai,IT & Wi-Fi,Low,Hinglish
 Main Building mein meri attendance galat dikha raha hai,Academic,Medium,Hinglish
 Aaj college bus service band hai,Transport,Low,Hinglish
@@ -561,16 +561,16 @@ Computer Lab hostel mein maintenance ki dikkat aa rahi hai,Hostel,Low,Hinglish
 Seminar Hall hostel mein bijli ki problem hai,Hostel,Medium,Hinglish
 Classroom ka door toota hua hai,Infrastructure,Low,Hinglish
 कार्यशाळा वसतिगृहाच्या खोलीत पंखा चालत नाही,Hostel,Low,Marathi
-Medical: There is a maintenance issue in Block D building,Infrastructure,High,English
-Broken desks need repair in Block B,Infrastructure,Medium,English
+Medical: Air conditioner in Block D is leaking water and malfunctioning,Infrastructure,High,English
+There is a maintenance issue in Block B building,Infrastructure,Medium,English
 ब्लॉक डी में क्लासरूम का प्रोजेक्टर काम नहीं कर रहा है,Infrastructure,Medium,Hindi
 क्लासरूम का पंखा पूरी तरह से खराब हो गया है,Infrastructure,Low,Hindi
 Khatra: Classroom ka door toota hua hai,Infrastructure,High,Hinglish
-The bus has frequent delays,Transport,Medium,English
-The internet keeps disconnecting in Science Building,IT & Wi-Fi,Low,English
-Teacher has not updated attendance,Academic,Medium,English
+Morning college bus is severely overcrowded near Block A,Transport,Medium,English
+Wi-Fi router in Science Building keeps restarting and dropping connections,IT & Wi-Fi,Low,English
+Final examination marksheet contains wrong grade in Seminar Hall,Academic,Medium,English
 Workshop ke paas campus wifi connect nahi ho raha hai,IT & Wi-Fi,Medium,Hinglish
-I cannot register for Girls Hostel course,Academic,Medium,English
+Attendance percentage showing below eligibility criteria in Girls Hostel,Academic,Medium,English
 पोर्टलवर परीक्षेचे गुण दिसत नाहीत,Academic,Medium,Marathi
 वाहतुकीचे वेळापत्रक चुकीचे प्रसिद्ध केले आहे,Transport,Low,Marathi
 बस रोजाना बहुत लेट हो जाती है,Transport,Medium,Hindi
@@ -578,43 +578,43 @@ College bus daily regular time par nahi aati,Transport,Medium,Hinglish
 वर्कशॉप के लिए कोर्स सामग्री और नोट्स उपलब्ध नहीं हैं,Academic,Low,Hindi
 संध्याकाळी कॅम्पसवरून जाण्यासाठी कोणतीही बस नाही,Transport,Medium,Marathi
 हॉस्टल के बाथरूम की तुरंत सफाई की जरूरत है,Hostel,Medium,Hindi
-My marks are not visible on the portal,Academic,Medium,English
-Classroom projector is not working in Block C,Infrastructure,Medium,English
-The classroom fan is damaged,Infrastructure,Low,English
+Course syllabus and lecture slides not uploaded for Block B,Academic,Medium,English
+Lights are not working in Block C,Infrastructure,Medium,English
+The classroom door is broken in Block D,Infrastructure,Low,English
 आपातकालीन: गर्ल्स हॉस्टल हॉस्टल के कमरे में पंखा नहीं चल रहा है,Hostel,High,Hindi
 जिन्याचा कठडा तुटलेला असून धोकादायक आहे,Infrastructure,Low,Marathi
 कॉलेज बस में बहुत ज्यादा भीड़ रहती है,Transport,Medium,Hindi
 Seminar Hall ke paas campus wifi connect nahi ho raha hai,IT & Wi-Fi,Low,Hinglish
 Computer Lab ke liye college bus route available nahi hai,Transport,Medium,Hinglish
 ब्लॉक ए चे अंतर्गत गुण पोर्टलवर दिसत नाहीत,Academic,Medium,Marathi
-The laboratory equipment needs repair,Infrastructure,Medium,English
+Staircase emergency exit door is jammed shut in Computer Lab,Infrastructure,Medium,English
 कॅम्पस इंटरनेट अचानक बंद पडले आहे सभागृह मध्ये,IT & Wi-Fi,Medium,Marathi
-Teacher has not updated attendance,Academic,Medium,English
+Final examination marksheet contains wrong grade in Block B,Academic,Medium,English
 Campus internet band ho gaya hai Block D mein,IT & Wi-Fi,Low,Hinglish
 तातडीने: सभागृह मधील वर्गाचे दिवे नादुरुस्त आहेत,Infrastructure,High,Marathi
-Lights are not working in Science Building,Infrastructure,Medium,English
-Wi-Fi is not working in Workshop,IT & Wi-Fi,Medium,English
+The classroom fan is damaged in Science Building,Infrastructure,Medium,English
+Internet connection is very slow in Workshop,IT & Wi-Fi,Medium,English
 परीक्षा टाइमटेबल और शेड्यूल में समस्या है,Academic,Medium,Hindi
 Seminar Hall ke course notes aur study material access nahi ho rahe,Academic,Medium,Hinglish
 सेंट्रल लाइब्रेरी हॉस्टल में पानी की कोई सप्लाई नहीं आ रही है,Hostel,Medium,Hindi
 Central Library hostel mein maintenance ki dikkat aa rahi hai,Hostel,Medium,Hinglish
 परीक्षेच्या वेळापत्रकात मोठी चूक आहे,Academic,Medium,Marathi
-My attendance is incorrect in Block C,Academic,Low,English
+Internal marks are missing for Block C,Academic,Low,English
 माझ्या वर्गाच्या वेळापत्रकात समस्या आहे,Academic,Medium,Marathi
 बस ड्राइवर साइंस बिल्डिंग स्टॉप को छोड़ कर चला जाता है,Transport,Medium,Hindi
 प्रयोगशाळेतील उपकरणे नादुरुस्त आहेत,Infrastructure,Medium,Marathi
 ब्लॉक बी के पास कैंपस वाई-फाई से कनेक्ट नहीं हो पा रहा है,IT & Wi-Fi,Medium,Hindi
 मुलांचे वसतिगृह इमारतीत दुरुस्ती आणि देखभालीची समस्या आहे,Infrastructure,Medium,Marathi
 हॉस्टल के कमरे का नल लगातार लीक हो रहा है,Hostel,Low,Hindi
-College bus is overcrowded,Transport,Medium,English
+The transport schedule is incorrect for Girls Hostel,Transport,Medium,English
 कॉलेज बस बहुत देरी से आ रही है,Transport,Medium,Hindi
-There is an issue with my timetable,Academic,Medium,English
-Fire: The laboratory equipment needs repair,Infrastructure,High,English
-The exam schedule has a problem,Academic,Low,English
-Urgent: Computer lab network is down in Girls Hostel,IT & Wi-Fi,High,English
+Continuous assessment internal marks missing for Boys Hostel,Academic,Medium,English
+Fire: Classroom projector bulb is fused in Science Building,Infrastructure,High,English
+Teacher has not updated attendance in Block D,Academic,Low,English
+Urgent: Wi-Fi password is not working in Girls Hostel,IT & Wi-Fi,High,English
 Main Building ke paas campus wifi connect nahi ho raha hai,IT & Wi-Fi,Medium,Hinglish
 सुरक्षा समस्या: ब्लॉक ए मध्ये वाय-फाय पासवर्ड काम करत नाही,IT & Wi-Fi,High,Marathi
-Medical: Hostel room light is not working,Hostel,High,English
+Medical: Hostel laundry washing machines are out of order in Science Building,Hostel,High,English
 जिन्याचा कठडा तुटलेला असून धोकादायक आहे,Infrastructure,Low,Marathi
 सेमिनार हॉल के लिए कॉलेज बस का रूट उपलब्ध नहीं है,Transport,Medium,Hindi
 मेरे क्लास टाइमटेबल में गड़बड़ी है,Academic,Medium,Hindi
@@ -629,17 +629,17 @@ College bus daily regular time par nahi aati,Transport,Medium,Hinglish
 ब्लॉक बी में कंप्यूटर लैब का नेटवर्क डाउन है,IT & Wi-Fi,Medium,Hindi
 Hostel room ka tap leak ho raha hai,Hostel,Medium,Hinglish
 वर्कशॉप के इंटरनल मार्क्स पोर्टल पर गायब हैं,Academic,Medium,Hindi
-Hostel bathroom needs urgent cleaning,Hostel,Medium,English
+Hostel room light is not working in Block A,Hostel,Medium,English
 College bus daily regular time par nahi aati,Transport,Medium,Hinglish
 ब्लॉक ए के लिए कोर्स सामग्री और नोट्स उपलब्ध नहीं हैं,Academic,Medium,Hindi
 Exam schedule mein timetable ki issue hai,Academic,Medium,Hinglish
-There is an issue with my timetable,Academic,Low,English
+Continuous assessment internal marks missing for Girls Hostel,Academic,Low,English
 Portal par mere marks show nahi ho rahe hain,Academic,Medium,Hinglish
 बस चालक विज्ञान इमारत थांब्यावर बस थांबवत नाही,Transport,Medium,Marathi
 संध्याकाळी कॅम्पसवरून जाण्यासाठी कोणतीही बस नाही,Transport,Medium,Marathi
 पोर्टलवर परीक्षेचे गुण दिसत नाहीत,Academic,Low,Marathi
-No water supply in Block C hostel,Hostel,Low,English
-The bus has frequent delays,Transport,Low,English
+Fan is not working in Block C hostel room,Hostel,Low,English
+Evening transport schedule cancelled without notice for Girls Hostel,Transport,Low,English
 विज्ञान इमारत मधील वर्गाचे दिवे नादुरुस्त आहेत,Infrastructure,Medium,Marathi
 माझ्या वर्गाच्या वेळापत्रकात समस्या आहे,Academic,Low,Marathi
 College bus bohot overcrowded rehti hai,Transport,Low,Hinglish
@@ -649,12 +649,12 @@ College bus bohot overcrowded rehti hai,Transport,Low,Hinglish
 कैंपस इंटरनेट अचानक बंद हो गया है वर्कशॉप में,IT & Wi-Fi,Low,Hindi
 साइंस बिल्डिंग के लिए कॉलेज बस का रूट उपलब्ध नहीं है,Transport,Medium,Hindi
 सुरक्षा समस्या: सेमिनार हॉल हॉस्टल के कमरे में पंखा नहीं चल रहा है,Hostel,High,Hindi
-Students are facing maintenance problems in Block B hostel,Hostel,Medium,English
+Bathroom tap is continuously dripping in Block B hostel,Hostel,Medium,English
 सभागृह मधील तुटलेले बाक आणि बाकडे दुरुस्त करा,Infrastructure,Medium,Marathi
 मैं सेंट्रल लाइब्रेरी विषय और कोर्स के लिए रजिस्टर नहीं कर पा रहा हूँ,Academic,Medium,Hindi
 परीक्षा टाइमटेबल और शेड्यूल में समस्या है,Academic,Medium,Hindi
 ब्लॉक ए हॉस्टल में छात्रों को मेंटेनेंस की दिक्कत हो रही है,Hostel,Medium,Hindi
-Wi-Fi password is not working in Central Library,IT & Wi-Fi,Medium,English
+Campus intranet portal returning bad gateway error in Central Library,IT & Wi-Fi,Medium,English
 आज कॉलेज बस सेवा बंद आहे,Transport,Medium,Marathi
 ब्लॉक सी साठी कॉलेज बस मार्ग उपलब्ध नाही,Transport,Low,Marathi
 वसतिगृहाचे स्वच्छतागृह तातडीने स्वच्छ करणे आवश्यक आहे,Hostel,Low,Marathi
@@ -668,7 +668,7 @@ Suraksha problem: Transport schedule galat diya gaya hai,Transport,High,Hinglish
 Laboratory ke equipment aur apparatus kharab hain,Infrastructure,Medium,Hinglish
 Urgent: Girls Hostel ke internal marks portal par upload nahi hue,Academic,High,Hinglish
 आग: मेरे क्लास टाइमटेबल में गड़बड़ी है,Academic,High,Hindi
-My attendance is incorrect in Seminar Hall,Academic,Low,English
+Internal marks are missing for Seminar Hall,Academic,Low,English
 Hostel room ki light kaam nahi kar rahi,Hostel,Medium,Hinglish
 Science Building ke paas campus wifi connect nahi ho raha hai,IT & Wi-Fi,Medium,Hinglish
 साइंस बिल्डिंग में मेरी अटेंडेंस गलत दर्ज की गई है,Academic,Medium,Hindi
@@ -676,18 +676,18 @@ Science Building ke paas campus wifi connect nahi ho raha hai,IT & Wi-Fi,Medium,
 हॉस्टल रूम की लाइट खराब हो गई है,Hostel,Medium,Hindi
 क्लासरूम का पंखा पूरी तरह से खराब हो गया है,Infrastructure,Medium,Hindi
 Danger: Girls Hostel building mein maintenance ki badi issue hai,Infrastructure,High,Hinglish
-The water cooler is not working in Workshop hostel,Hostel,Medium,English
+Students are facing maintenance problems in Workshop hostel,Hostel,Medium,English
 संध्याकाळी कॅम्पसवरून जाण्यासाठी कोणतीही बस नाही,Transport,Medium,Marathi
 ब्लॉक बी में वाई-फाई काम नहीं कर रहा है,IT & Wi-Fi,Medium,Hindi
 महाविद्यालयाची बस खूप उशिरा येत आहे,Transport,Low,Marathi
 Khatra: College bus bahut late aa rahi hai,Transport,High,Hinglish
-The laboratory equipment needs repair,Infrastructure,Medium,English
-There is a maintenance issue in Main Building building,Infrastructure,Medium,English
+Staircase emergency exit door is jammed shut in Block C,Infrastructure,Medium,English
+Electric shock felt from switchboard in Main Building,Infrastructure,Medium,English
 प्रयोगशाला के उपकरण टूटे हुए हैं और मरम्मत चाहिए,Infrastructure,Medium,Hindi
 आज कॉलेज की बस सेवा उपलब्ध नहीं है,Transport,Medium,Hindi
 बस चालक मुलांचे वसतिगृह थांब्यावर बस थांबवत नाही,Transport,Medium,Marathi
-Medical: I cannot register for Seminar Hall course,Academic,High,English
-Internet connection is very slow in Computer Lab,IT & Wi-Fi,Medium,English
+Medical: Hall ticket for upcoming end-semester exam not generated for Seminar Hall,Academic,High,English
+Computer lab network is down in Computer Lab,IT & Wi-Fi,Medium,English
 वसतिगृहाच्या खोलीतील नळ गळत आहे,Hostel,Low,Marathi
 ब्लॉक ए के पास कैंपस वाई-फाई से कनेक्ट नहीं हो पा रहा है,IT & Wi-Fi,Low,Hindi
 अपघात: ब्लॉक डी मध्ये इंटरनेट वारंवार खंडित होत आहे,IT & Wi-Fi,High,Marathi
@@ -704,21 +704,21 @@ Block A hostel mein bijli ki problem hai,Hostel,Low,Hinglish
 जिन्याचा कठडा तुटलेला असून धोकादायक आहे,Infrastructure,Low,Marathi
 मी मुलींचे वसतिगृह या अभ्यासक्रमासाठी नोंदणी करू शकत नाही आहे,Academic,Medium,Marathi
 ब्लॉक बी मध्ये माझी हजेरी चुकीची नोंदवली आहे,Academic,Low,Marathi
-Unable to access the course material for Girls Hostel,Academic,Medium,English
+I cannot register for Girls Hostel course,Academic,Medium,English
 संगणक प्रयोगशाळा मध्ये इंटरनेट कनेक्शन खूप स्लो चालू आहे,IT & Wi-Fi,Medium,Marathi
-The hostel room tap is leaking,Hostel,Medium,English
+Severe drinking water shortage in Boys Hostel hostel,Hostel,Medium,English
 College bus bohot overcrowded rehti hai,Transport,Low,Hinglish
 Block A mein classroom projector kaam nahi kar raha hai,Infrastructure,Medium,Hinglish
 कंप्यूटर लैब में वाई-फाई काम नहीं कर रहा है,IT & Wi-Fi,Medium,Hindi
 मध्यवर्ती ग्रंथालय जवळ कॅम्पस वाय-फाय कनेक्ट होत नाही,IT & Wi-Fi,Medium,Marathi
-Internal marks are missing for Computer Lab,Academic,Medium,English
-There is a maintenance issue in Computer Lab building,Infrastructure,Medium,English
+The exam schedule has a problem in Computer Lab,Academic,Medium,English
+Air conditioner in Computer Lab is leaking water and malfunctioning,Infrastructure,Medium,English
 विज्ञान इमारत मध्ये नेटवर्क सेवा पूर्णपणे बंद आहे,IT & Wi-Fi,Medium,Marathi
 क्लासरूम का पंखा पूरी तरह से खराब हो गया है,Infrastructure,Medium,Hindi
-Internal marks are missing for Central Library,Academic,Medium,English
-Network access is unavailable in Main Building,IT & Wi-Fi,Medium,English
+The exam schedule has a problem in Central Library,Academic,Medium,English
+VPN access to campus network is failing near Main Building,IT & Wi-Fi,Medium,English
 ब्लॉक ए के इंटरनल मार्क्स पोर्टल पर गायब हैं,Academic,Medium,Hindi
-Bus service is unavailable today,Transport,Low,English
+Route bus broke down with flat tyre near Science Building,Transport,Low,English
 Classroom projector is not working in Computer Lab,Infrastructure,Medium,English
 Khatra: Hostel bathroom ki urgent safai chahiye,Hostel,High,Hinglish
 वर्कशॉप में इंटरनेट कनेक्शन बहुत धीमा चल रहा है,IT & Wi-Fi,Medium,Hindi
@@ -733,29 +733,29 @@ Emergency: Block A mein wifi password work nahi kar raha hai,IT & Wi-Fi,High,Hin
 साइंस बिल्डिंग हॉस्टल में छात्रों को मेंटेनेंस की दिक्कत हो रही है,Hostel,Low,Hindi
 Seminar Hall ke liye college bus route available nahi hai,Transport,Medium,Hinglish
 शाम के समय घर जाने के लिए कोई बस नहीं मिलती,Transport,Medium,Hindi
-Bus driver is skipping the Boys Hostel stop,Transport,Medium,English
-Computer lab network is down in Seminar Hall,IT & Wi-Fi,Medium,English
+The bus has frequent delays near Boys Hostel,Transport,Medium,English
+Wi-Fi password is not working in Seminar Hall,IT & Wi-Fi,Medium,English
 कैंपस इंटरनेट अचानक बंद हो गया है ब्लॉक सी में,IT & Wi-Fi,Low,Hindi
 सेमिनार हॉल के इंटरनल मार्क्स पोर्टल पर गायब हैं,Academic,Medium,Hindi
 संगणक प्रयोगशाळा मध्ये वाय-फाय व्यवस्थित चालत नाही आहे,IT & Wi-Fi,Medium,Marathi
-Security: Students are facing maintenance problems in Block B hostel,Hostel,High,English
+Security: Bathroom tap is continuously dripping in Block B hostel,Hostel,High,English
 Seminar Hall mein toote hue desk aur benches repair hone chahiye,Infrastructure,Medium,Hinglish
 असुरक्षित: क्लासरूम का मुख्य दरवाजा टूटा हुआ है,Infrastructure,High,Hindi
 माझ्या वर्गाच्या वेळापत्रकात समस्या आहे,Academic,Low,Marathi
 बस चालक ब्लॉक सी थांब्यावर बस थांबवत नाही,Transport,Low,Marathi
-The bus has frequent delays,Transport,Low,English
+Evening transport schedule cancelled without notice for Science Building,Transport,Low,English
 विज्ञान इमारत वसतिगृहात विद्यार्थ्यांना देखभालीच्या समस्या येत आहेत,Hostel,Medium,Marathi
 ब्लॉक बी मध्ये माझी हजेरी चुकीची नोंदवली आहे,Academic,Medium,Marathi
 ब्लॉक ए वसतिगृहात पाण्याचा पुरवठा बंद आहे,Hostel,Medium,Marathi
-The bus has frequent delays,Transport,Low,English
+Evening transport schedule cancelled without notice for Science Building,Transport,Low,English
 दुर्घटना: कॉलेज बस में बहुत ज्यादा भीड़ रहती है,Transport,High,Hindi
-There is an issue with my timetable,Academic,Medium,English
+Continuous assessment internal marks missing for Workshop,Academic,Medium,English
 मुलांचे वसतिगृह मध्ये नेटवर्क सेवा पूर्णपणे बंद आहे,IT & Wi-Fi,Low,Marathi
 संध्याकाळी कॅम्पसवरून जाण्यासाठी कोणतीही बस नाही,Transport,Medium,Marathi
 सुरक्षा समस्या: मुख्य इमारत मधील वर्गाचे दिवे नादुरुस्त आहेत,Infrastructure,High,Marathi
-The exam schedule has a problem,Academic,Medium,English
+Teacher has not updated attendance in Block A,Academic,Medium,English
 ब्लॉक बी वसतिगृहातील वॉटर कुलर बंद पडला आहे,Hostel,Medium,Marathi
-Computer lab network is down in Central Library,IT & Wi-Fi,Medium,English
+Wi-Fi password is not working in Central Library,IT & Wi-Fi,Medium,English
 जिन्याचा कठडा तुटलेला असून धोकादायक आहे,Infrastructure,Medium,Marathi
 Seminar Hall mein classroom lights kharab hain,Infrastructure,Low,Hinglish
 Suraksha problem: Block C ke paas campus wifi connect nahi ho raha hai,IT & Wi-Fi,High,Hinglish
@@ -764,9 +764,9 @@ Suraksha problem: Block C ke paas campus wifi connect nahi ho raha hai,IT & Wi-F
 ब्लॉक ए में इंटरनेट कनेक्शन बहुत धीमा चल रहा है,IT & Wi-Fi,Medium,Hindi
 Danger: Boys Hostel mein toote hue desk aur benches repair hone chahiye,Infrastructure,High,Hinglish
 वैद्यकीय आणीबाणी: महाविद्यालयाची बस खूप उशिरा येत आहे,Transport,High,Marathi
-The water cooler is not working in Central Library hostel,Hostel,Medium,English
+Students are facing maintenance problems in Central Library hostel,Hostel,Medium,English
 ब्लॉक बी हॉस्टल में छात्रों को मेंटेनेंस की दिक्कत हो रही है,Hostel,Low,Hindi
-Unsafe: Internet connection is very slow in Main Building,IT & Wi-Fi,High,English
+Unsafe: Unable to connect to campus Wi-Fi near Main Building,IT & Wi-Fi,High,English
 परीक्षा टाइमटेबल और शेड्यूल में समस्या है,Academic,Low,Hindi
 Hostel room ki light kaam nahi kar rahi,Hostel,Medium,Hinglish
 Transport schedule galat diya gaya hai,Transport,Medium,Hinglish
@@ -778,7 +778,7 @@ Stairs ki railing tooti hui hai,Infrastructure,Low,Hinglish
 सभागृह मध्ये वाय-फाय पासवर्ड काम करत नाही,IT & Wi-Fi,Medium,Marathi
 Central Library hostel mein paani bilkul nahi aa raha hai,Hostel,Medium,Hinglish
 असुरक्षित: वसतिगृहाच्या खोलीतील लाईट बंद झाली आहे,Hostel,High,Marathi
-There is a power problem in Workshop hostel,Hostel,Medium,English
+Hostel geyser not heating water in Workshop bathroom,Hostel,Medium,English
 तुरंत: ब्लॉक ए में कंप्यूटर लैब का नेटवर्क डाउन है,IT & Wi-Fi,High,Hindi
 वैद्यकीय आणीबाणी: वर्गातील पंखा नादुरुस्त झाला आहे,Infrastructure,High,Marathi
 कॉलेज बस में बहुत ज्यादा भीड़ रहती है,Transport,Medium,Hindi
@@ -786,19 +786,19 @@ Block C ke paas campus wifi connect nahi ho raha hai,IT & Wi-Fi,Low,Hinglish
 धोका: वाहतुकीचे वेळापत्रक चुकीचे प्रसिद्ध केले आहे,Transport,High,Marathi
 Block C mein network connectivity ki bahut dikkat hai,IT & Wi-Fi,Low,Hinglish
 College bus bahut late aa rahi hai,Transport,Medium,Hinglish
-Bus driver is skipping the Girls Hostel stop,Transport,Medium,English
-Immediately: Hostel bathroom needs urgent cleaning,Hostel,High,English
-There is a maintenance issue in Central Library building,Infrastructure,Low,English
+The bus has frequent delays near Girls Hostel,Transport,Medium,English
+Immediately: There is a power problem in Seminar Hall hostel,Hostel,High,English
+Air conditioner in Central Library is leaking water and malfunctioning,Infrastructure,Low,English
 शाम के समय घर जाने के लिए कोई बस नहीं मिलती,Transport,Low,Hindi
 आपातकालीन: बस ड्राइवर सेंट्रल लाइब्रेरी स्टॉप को छोड़ कर चला जाता है,Transport,High,Hindi
 मुलांचे वसतिगृह जवळ कॅम्पस वाय-फाय कनेक्ट होत नाही,IT & Wi-Fi,Medium,Marathi
-Wi-Fi is not working in Block B,IT & Wi-Fi,Low,English
+Internet connection is very slow in Block B,IT & Wi-Fi,Low,English
 असुरक्षित: कॉलेज ट्रांसपोर्ट का टाइमटेबल गलत है,Transport,High,Hindi
 मुख्य इमारत मधील वर्गाचे दिवे नादुरुस्त आहेत,Infrastructure,Medium,Marathi
-The exam schedule has a problem,Academic,Medium,English
+My marks are not visible on the portal for Block C,Academic,Medium,English
 ब्लॉक डी चा अभ्यासक्रम आणि साहित्य उपलब्ध होत नाही,Academic,Medium,Marathi
 Urgent: Classroom ka fan damaged hai,Infrastructure,High,Hinglish
-Unable to connect to campus Wi-Fi near Block D,IT & Wi-Fi,Low,English
+Campus internet has stopped working in Block D,IT & Wi-Fi,Low,English
 Laboratory ke equipment aur apparatus kharab hain,Infrastructure,Low,Hinglish
 शाम के समय घर जाने के लिए कोई बस नहीं मिलती,Transport,Low,Hindi
 Computer Lab mein wifi password work nahi kar raha hai,IT & Wi-Fi,Medium,Hinglish
@@ -808,11 +808,11 @@ Laboratory ke equipment aur apparatus kharab hain,Infrastructure,Medium,Hinglish
 Hostel bathroom ki urgent safai chahiye,Hostel,Medium,Hinglish
 आणीबाणी: ब्लॉक बी वसतिगृहाच्या खोलीत पंखा चालत नाही,Hostel,High,Marathi
 कॉलेज ट्रांसपोर्ट का टाइमटेबल गलत है,Transport,Medium,Hindi
-Unsafe: Broken desks need repair in Science Building,Infrastructure,High,English
+Unsafe: The staircase railing is damaged in Science Building,Infrastructure,High,English
 तुरंत: गर्ल्स हॉस्टल में क्लास की लाइटें खराब पड़ी हैं,Infrastructure,High,Hindi
-Students are facing maintenance problems in Boys Hostel hostel,Hostel,Medium,English
+Bathroom tap is continuously dripping in Boys Hostel hostel,Hostel,Medium,English
 वसतिगृहाचे स्वच्छतागृह तातडीने स्वच्छ करणे आवश्यक आहे,Hostel,Medium,Marathi
-College bus is overcrowded,Transport,Medium,English
+The transport schedule is incorrect for Seminar Hall,Transport,Medium,English
 कॉलेज बस में बहुत ज्यादा भीड़ रहती है,Transport,Medium,Hindi
 Laboratory ke equipment aur apparatus kharab hain,Infrastructure,Medium,Hinglish
 असुरक्षित: परीक्षेच्या वेळापत्रकात मोठी चूक आहे,Academic,High,Marathi
@@ -823,7 +823,7 @@ Hostel room ki light kaam nahi kar rahi,Hostel,Medium,Hinglish
 मेरे क्लास टाइमटेबल में गड़बड़ी है,Academic,Medium,Hindi
 प्रयोगशाला के उपकरण टूटे हुए हैं और मरम्मत चाहिए,Infrastructure,Medium,Hindi
 मुलींचे वसतिगृह साठी कॉलेज बस मार्ग उपलब्ध नाही,Transport,Medium,Marathi
-My marks are not visible on the portal,Academic,Medium,English
+Course registration portal crashed before deadline in Computer Lab,Academic,Medium,English
 Stairs ki railing tooti hui hai,Infrastructure,Medium,Hinglish
 ब्लॉक सी मध्ये इंटरनेट कनेक्शन खूप स्लो चालू आहे,IT & Wi-Fi,Low,Marathi
 Boys Hostel mein wifi password work nahi kar raha hai,IT & Wi-Fi,Medium,Hinglish
@@ -831,10 +831,10 @@ Hostel room ka tap leak ho raha hai,Hostel,Medium,Hinglish
 Hostel room ka tap leak ho raha hai,Hostel,Medium,Hinglish
 Medical Emergency: Seminar Hall hostel room ka fan nahi chal raha hai,Hostel,High,Hinglish
 Block B mein wifi kaam nahi kar raha hai,IT & Wi-Fi,Low,Hinglish
-The transport schedule is incorrect,Transport,Low,English
-My marks are not visible on the portal,Academic,Medium,English
+College shuttle van from metro delayed at Block B,Transport,Low,English
+Course registration portal crashed before deadline in Computer Lab,Academic,Medium,English
 आपातकालीन: क्लासरूम का मुख्य दरवाजा टूटा हुआ है,Infrastructure,High,Hindi
-College bus is overcrowded,Transport,Low,English
+The transport schedule is incorrect for Main Building,Transport,Low,English
 विज्ञान इमारत वसतिगृहातील वॉटर कुलर बंद पडला आहे,Hostel,Medium,Marathi
 कैंपस इंटरनेट अचानक बंद हो गया है सेंट्रल लाइब्रेरी में,IT & Wi-Fi,Medium,Hindi
 कार्यशाळा वसतिगृहात पाण्याचा पुरवठा बंद आहे,Hostel,Medium,Marathi
@@ -843,9 +843,9 @@ Central Library ke paas campus wifi connect nahi ho raha hai,IT & Wi-Fi,Low,Hing
 असुरक्षित: ब्लॉक ए इमारतीत दुरुस्ती आणि देखभालीची समस्या आहे,Infrastructure,High,Marathi
 बस रोजाना बहुत लेट हो जाती है,Transport,Medium,Hindi
 Stairs ki railing tooti hui hai,Infrastructure,Medium,Hinglish
-Classroom projector is not working in Block C,Infrastructure,Medium,English
+Lights are not working in Block C,Infrastructure,Medium,English
 मुलींचे वसतिगृह मध्ये वाय-फाय व्यवस्थित चालत नाही आहे,IT & Wi-Fi,Medium,Marathi
-Unable to connect to campus Wi-Fi near Block C,IT & Wi-Fi,Medium,English
+Campus internet has stopped working in Block C,IT & Wi-Fi,Medium,English
 कैंपस इंटरनेट अचानक बंद हो गया है ब्लॉक डी में,IT & Wi-Fi,Medium,Hindi
 Hostel room ki light kaam nahi kar rahi,Hostel,Medium,Hinglish
 बस चालक ब्लॉक ए थांब्यावर बस थांबवत नाही,Transport,Medium,Marathi
@@ -854,25 +854,25 @@ Stairs ki railing tooti hui hai,Infrastructure,Low,Hinglish
 Hostel bathroom ki urgent safai chahiye,Hostel,Medium,Hinglish
 Workshop mein network connectivity ki bahut dikkat hai,IT & Wi-Fi,Medium,Hinglish
 कॉलेज बस बहुत देरी से आ रही है,Transport,Low,Hindi
-Hostel room light is not working,Hostel,Medium,English
+Hostel room window latch is broken in Block C,Hostel,Medium,English
 मुलींचे वसतिगृह साठी कॉलेज बस मार्ग उपलब्ध नाही,Transport,Low,Marathi
 Boys Hostel hostel room ka fan nahi chal raha hai,Hostel,Medium,Hinglish
-Internet connection is very slow in Block A,IT & Wi-Fi,Medium,English
+Unable to connect to campus Wi-Fi near Block A,IT & Wi-Fi,Medium,English
 सुरक्षा समस्या: मैं वर्कशॉप विषय और कोर्स के लिए रजिस्टर नहीं कर पा रहा हूँ,Academic,High,Hindi
 Exam schedule mein timetable ki issue hai,Academic,Medium,Hinglish
-Unable to connect to campus Wi-Fi near Seminar Hall,IT & Wi-Fi,Medium,English
+Network access is unavailable in Seminar Hall,IT & Wi-Fi,Medium,English
 Jaldi: Aaj college bus service band hai,Transport,High,Hinglish
-The classroom door is broken,Infrastructure,Medium,English
+Laboratory chemical fume hood fan not functioning in Workshop,Infrastructure,Medium,English
 College bus bohot overcrowded rehti hai,Transport,Medium,Hinglish
 तातडीने: आज कॉलेज बस सेवा बंद आहे,Transport,High,Marathi
 कैंपस इंटरनेट अचानक बंद हो गया है गर्ल्स हॉस्टल में,IT & Wi-Fi,Medium,Hindi
-The internet keeps disconnecting in Seminar Hall,IT & Wi-Fi,Medium,English
+Cannot connect to eduroam on laptop near Seminar Hall,IT & Wi-Fi,Medium,English
 Class timetable mein clash aur problem hai,Academic,Medium,Hinglish
 मध्यवर्ती ग्रंथालय मध्ये नेटवर्क सेवा पूर्णपणे बंद आहे,IT & Wi-Fi,Medium,Marathi
 Hostel room ka tap leak ho raha hai,Hostel,Medium,Hinglish
 पोर्टलवर परीक्षेचे गुण दिसत नाहीत,Academic,Low,Marathi
 Portal par mere marks show nahi ho rahe hain,Academic,Medium,Hinglish
-The bus has frequent delays,Transport,Medium,English
+Evening transport schedule cancelled without notice for Boys Hostel,Transport,Medium,English
 कॉलेज ट्रांसपोर्ट का टाइमटेबल गलत है,Transport,Medium,Hindi
 ब्लॉक बी जवळ कॅम्पस वाय-फाय कनेक्ट होत नाही,IT & Wi-Fi,Medium,Marathi
 पोर्टलवर परीक्षेचे गुण दिसत नाहीत,Academic,Low,Marathi
@@ -882,15 +882,15 @@ Boys Hostel ke paas campus wifi connect nahi ho raha hai,IT & Wi-Fi,Medium,Hingl
 ब्लॉक सी वसतिगृहातील वॉटर कुलर बंद पडला आहे,Hostel,Medium,Marathi
 Urgent: Stairs ki railing tooti hui hai,Infrastructure,High,Hinglish
 Danger: Classroom ka fan damaged hai,Infrastructure,High,Hinglish
-Network access is unavailable in Seminar Hall,IT & Wi-Fi,Medium,English
-Medical: There is a maintenance issue in Boys Hostel building,Infrastructure,High,English
+VPN access to campus network is failing near Seminar Hall,IT & Wi-Fi,Medium,English
+Medical: Electric shock felt from switchboard in Boys Hostel,Infrastructure,High,English
 Central Library ke liye college bus route available nahi hai,Transport,Medium,Hinglish
 Classroom ka fan damaged hai,Infrastructure,Medium,Hinglish
 ब्लॉक बी मधील तुटलेले बाक आणि बाकडे दुरुस्त करा,Infrastructure,Medium,Marathi
-College bus is arriving late,Transport,Low,English
+The bus route for Workshop is not available,Transport,Low,English
 Seminar Hall hostel mein bijli ki problem hai,Hostel,Medium,Hinglish
-The staircase railing is damaged,Infrastructure,Low,English
-Students are facing maintenance problems in Central Library hostel,Hostel,Low,English
+Ceiling plaster fell down on desks in Seminar Hall,Infrastructure,Low,English
+Bathroom tap is continuously dripping in Central Library hostel,Hostel,Low,English
 सुरक्षा समस्या: मध्यवर्ती ग्रंथालय मध्ये नेटवर्क सेवा पूर्णपणे बंद आहे,IT & Wi-Fi,High,Marathi
 विज्ञान इमारत मध्ये इंटरनेट वारंवार खंडित होत आहे,IT & Wi-Fi,Medium,Marathi
 तुरंत: बॉयज हॉस्टल के लिए कॉलेज बस का रूट उपलब्ध नहीं है,Transport,High,Hindi
@@ -904,32 +904,32 @@ College bus bahut late aa rahi hai,Transport,Medium,Hinglish
 जिन्याचा कठडा तुटलेला असून धोकादायक आहे,Infrastructure,Low,Marathi
 मेन बिल्डिंग में वाई-फाई काम नहीं कर रहा है,IT & Wi-Fi,Low,Hindi
 वर्गाचा मुख्य दरवाजा तुटला आहे,Infrastructure,Medium,Marathi
-Emergency: Bus service is unavailable today,Transport,High,English
-The bus route for Computer Lab is not available,Transport,Low,English
+Emergency: Bus pass online renewal portal server error for Workshop,Transport,High,English
+College bus is overcrowded near Computer Lab,Transport,Low,English
 Girls Hostel ke internal marks portal par upload nahi hue,Academic,Medium,Hinglish
 वर्कशॉप हॉस्टल में वाटर कूलर काम नहीं कर रहा है,Hostel,Low,Hindi
-The water cooler is not working in Science Building hostel,Hostel,Low,English
+The hostel room tap is leaking in Science Building,Hostel,Low,English
 आग: गर्ल्स हॉस्टल में क्लासरूम का प्रोजेक्टर काम नहीं कर रहा है,Infrastructure,High,Hindi
 ब्लॉक बी हॉस्टल में छात्रों को मेंटेनेंस की दिक्कत हो रही है,Hostel,Medium,Hindi
 Campus internet band ho gaya hai Girls Hostel mein,IT & Wi-Fi,Medium,Hinglish
 ब्लॉक बी जवळ कॅम्पस वाय-फाय कनेक्ट होत नाही,IT & Wi-Fi,Medium,Marathi
-Fan is not working in Block D hostel room,Hostel,Medium,English
+The water cooler is not working in Block D hostel,Hostel,Medium,English
 पोर्टलवर परीक्षेचे गुण दिसत नाहीत,Academic,Low,Marathi
 प्रयोगशाळेतील उपकरणे नादुरुस्त आहेत,Infrastructure,Low,Marathi
 ब्लॉक सी वसतिगृहात पाण्याचा पुरवठा बंद आहे,Hostel,Low,Marathi
 Main Block D course ke liye registration nahi kar pa raha,Academic,Low,Hinglish
 मेडिकल इमरजेंसी: मैं मेन बिल्डिंग विषय और कोर्स के लिए रजिस्टर नहीं कर पा रहा हूँ,Academic,High,Hindi
-College bus is overcrowded,Transport,Low,English
+Bus service is unavailable today for Girls Hostel,Transport,Low,English
 गर्ल्स हॉस्टल के पास कैंपस वाई-फाई से कनेक्ट नहीं हो पा रहा है,IT & Wi-Fi,Low,Hindi
 हॉस्टल के कमरे का नल लगातार लीक हो रहा है,Hostel,Medium,Hindi
 प्रयोगशाळेतील उपकरणे नादुरुस्त आहेत,Infrastructure,Medium,Marathi
-The bus has frequent delays,Transport,Low,English
+Morning college bus is severely overcrowded near Seminar Hall,Transport,Low,English
 Transport schedule galat diya gaya hai,Transport,Medium,Hinglish
 आज कॉलेज बस सेवा बंद आहे,Transport,Medium,Marathi
 No water supply in Workshop hostel,Hostel,Medium,English
-Accident: The laboratory equipment needs repair,Infrastructure,High,English
+Accident: Classroom projector bulb is fused in Block C,Infrastructure,High,English
 Hostel bathroom ki urgent safai chahiye,Hostel,Low,Hinglish
-Network access is unavailable in Central Library,IT & Wi-Fi,Low,English
+VPN access to campus network is failing near Central Library,IT & Wi-Fi,Low,English
 संगणक प्रयोगशाळा मध्ये वाय-फाय व्यवस्थित चालत नाही आहे,IT & Wi-Fi,Low,Marathi
 गर्ल्स हॉस्टल हॉस्टल में बिजली की समस्या है,Hostel,Medium,Hindi
 तातडीने: विज्ञान इमारत वसतिगृहातील वॉटर कुलर बंद पडला आहे,Hostel,High,Marathi
@@ -944,20 +944,20 @@ Aaj college bus service band hai,Transport,Medium,Hinglish
 ब्लॉक ए के इंटरनल मार्क्स पोर्टल पर गायब हैं,Academic,Medium,Hindi
 संगणक प्रयोगशाळा वसतिगृहातील वॉटर कुलर बंद पडला आहे,Hostel,Medium,Marathi
 Classroom ka fan damaged hai,Infrastructure,Medium,Hinglish
-The bus has frequent delays,Transport,Low,English
+Morning college bus is severely overcrowded near Main Building,Transport,Low,English
 महाविद्यालयाच्या बसमध्ये प्रचंड गर्दी असते,Transport,Medium,Marathi
-Wi-Fi password is not working in Block C,IT & Wi-Fi,Medium,English
-Security: College bus is arriving late,Transport,High,English
+Campus intranet portal returning bad gateway error in Block C,IT & Wi-Fi,Medium,English
+Security: The bus route for Computer Lab is not available,Transport,High,English
 मी सभागृह या अभ्यासक्रमासाठी नोंदणी करू शकत नाही आहे,Academic,Medium,Marathi
-Bus service is unavailable today,Transport,Medium,English
-Unsafe: The classroom door is broken,Infrastructure,High,English
+Bus pass online renewal portal server error for Central Library,Transport,Medium,English
+Unsafe: Laboratory chemical fume hood fan not functioning in Block C,Infrastructure,High,English
 ब्लॉक ए हॉस्टल में बिजली की समस्या है,Hostel,Low,Hindi
 Urgent: Teacher ne abhi tak attendance update nahi ki hai,Academic,High,Hinglish
-Bus driver is skipping the Boys Hostel stop,Transport,Medium,English
+There is no bus during the evening for Boys Hostel,Transport,Medium,English
 Transport schedule galat diya gaya hai,Transport,Medium,Hinglish
 क्लासरूम का पंखा पूरी तरह से खराब हो गया है,Infrastructure,Medium,Hindi
-Students are facing maintenance problems in Computer Lab hostel,Hostel,Medium,English
-Teacher has not updated attendance,Academic,Medium,English
+Hostel room fan regulator is stuck in Computer Lab,Hostel,Medium,English
+Final examination marksheet contains wrong grade in Workshop,Academic,Medium,English
 Girls Hostel ke paas campus wifi connect nahi ho raha hai,IT & Wi-Fi,Medium,Hinglish
 मध्यवर्ती ग्रंथालय वसतिगृहात पाण्याचा पुरवठा बंद आहे,Hostel,Medium,Marathi
 आज कॉलेज बस सेवा बंद आहे,Transport,Medium,Marathi
@@ -966,15 +966,15 @@ Girls Hostel ke paas campus wifi connect nahi ho raha hai,IT & Wi-Fi,Medium,Hing
 मैं कंप्यूटर लैब विषय और कोर्स के लिए रजिस्टर नहीं कर पा रहा हूँ,Academic,Low,Hindi
 प्राध्यापकांनी अद्याप हजेरी अद्ययावत केली नाही,Academic,Medium,Marathi
 College bus daily regular time par nahi aati,Transport,Medium,Hinglish
-My attendance is incorrect in Science Building,Academic,Low,English
+Internal marks are missing for Science Building,Academic,Low,English
 Main Block A course ke liye registration nahi kar pa raha,Academic,Medium,Hinglish
 Hostel room ka tap leak ho raha hai,Hostel,Medium,Hinglish
 क्लासरूम का मुख्य दरवाजा टूटा हुआ है,Infrastructure,Low,Hindi
 वर्कशॉप हॉस्टल में बिजली की समस्या है,Hostel,Medium,Hindi
-There is a maintenance issue in Girls Hostel building,Infrastructure,Medium,English
-The classroom fan is damaged,Infrastructure,Medium,English
-There is a maintenance issue in Block A building,Infrastructure,Medium,English
-Internet connection is very slow in Science Building,IT & Wi-Fi,Medium,English
+Air conditioner in Girls Hostel is leaking water and malfunctioning,Infrastructure,Medium,English
+The classroom door is broken in Seminar Hall,Infrastructure,Medium,English
+Electric shock felt from switchboard in Block A,Infrastructure,Medium,English
+Computer lab network is down in Science Building,IT & Wi-Fi,Medium,English
 मुलांचे वसतिगृह मध्ये इंटरनेट कनेक्शन खूप स्लो चालू आहे,IT & Wi-Fi,Low,Marathi
 Block B ke liye college bus route available nahi hai,Transport,Medium,Hinglish
 मेरे क्लास टाइमटेबल में गड़बड़ी है,Academic,Medium,Hindi
@@ -982,18 +982,18 @@ Block B ke liye college bus route available nahi hai,Transport,Medium,Hinglish
 दुर्घटना: हॉस्टल के कमरे का नल लगातार लीक हो रहा है,Hostel,High,Hindi
 संगणक प्रयोगशाळा मध्ये इंटरनेट कनेक्शन खूप स्लो चालू आहे,IT & Wi-Fi,Medium,Marathi
 College bus bohot overcrowded rehti hai,Transport,Low,Hinglish
-The water cooler is not working in Main Building hostel,Hostel,Low,English
+The hostel room tap is leaking in Main Building,Hostel,Low,English
 ब्लॉक डी वसतिगृहातील वॉटर कुलर बंद पडला आहे,Hostel,Medium,Marathi
 मुलांचे वसतिगृह मध्ये संगणक प्रयोगशाळेचे नेटवर्क बंद पडले आहे,IT & Wi-Fi,Low,Marathi
-I cannot register for Boys Hostel course,Academic,Medium,English
+Attendance percentage showing below eligibility criteria in Boys Hostel,Academic,Medium,English
 असुरक्षित: ब्लॉक डी बिल्डिंग में मेंटेनेंस और मरम्मत की समस्या है,Infrastructure,High,Hindi
 वैद्यकीय आणीबाणी: वसतिगृहाच्या खोलीतील लाईट बंद झाली आहे,Hostel,High,Marathi
-The internet keeps disconnecting in Workshop,IT & Wi-Fi,Medium,English
+Cannot connect to eduroam on laptop near Workshop,IT & Wi-Fi,Medium,English
 Main Workshop course ke liye registration nahi kar pa raha,Academic,Medium,Hinglish
-My marks are not visible on the portal,Academic,Medium,English
+Course registration portal crashed before deadline in Block C,Academic,Medium,English
 Stairs ki railing tooti hui hai,Infrastructure,Medium,Hinglish
-There is no bus during the evening,Transport,Low,English
-Teacher has not updated attendance,Academic,Medium,English
+College bus driver routinely skips the pickup stop at Computer Lab,Transport,Low,English
+Final examination marksheet contains wrong grade in Block B,Academic,Medium,English
 ब्लॉक ए मध्ये माझी हजेरी चुकीची नोंदवली आहे,Academic,Medium,Marathi
 College bus bohot overcrowded rehti hai,Transport,Low,Hinglish
 कार्यशाळा मध्ये नेटवर्क सेवा पूर्णपणे बंद आहे,IT & Wi-Fi,Low,Marathi

@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .models import Complaint
 from .ml import (
-    predict_category,
+    predict_category_with_confidence,
     predict_priority,
     detect_duplicate,
     detect_language
@@ -17,7 +17,7 @@ def home(request):
 
         if student_name and description:
             language = detect_language(description)
-            category = predict_category(description)
+            category, confidence = predict_category_with_confidence(description)
             priority = predict_priority(description)
             duplicate = detect_duplicate(description)
 
@@ -38,11 +38,13 @@ def home(request):
                 priority=priority,
                 department=department,
                 is_duplicate=duplicate,
-                language=language
+                language=language,
+                confidence=confidence
             )
 
             result = {
                 "category": category,
+                "confidence": round(confidence * 100, 1),
                 "priority": priority,
                 "department": department,
                 "duplicate": duplicate,

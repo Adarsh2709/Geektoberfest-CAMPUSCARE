@@ -20,14 +20,19 @@ A student submits a complaint and the system:
 Use examples such as:
 
 ```text
-Wi-Fi is not working in Block C
+Wi-Fi router in Block D keeps restarting and dropping connections
 ```
-Expected language: English, category: IT & Wi-Fi.
+Expected language: English, category: IT & Wi-Fi, confidence: about 78%, priority: Medium.
 
 ```text
-Emergency! There is no water supply in the hostel.
+Electric shock felt from metal switchboard in physics laboratory
 ```
-Expected language: English, category: Hostel, priority: High.
+Expected language: English, category: Infrastructure, priority: High (Life-safety hazard trigger), department: Maintenance.
+
+```text
+This is not an emergency, just need information on bus fee payment
+```
+Expected category: Transport, priority: Low (Negation-aware: ignores 'emergency' when negated).
 
 ```text
 हॉस्टल में पानी नहीं आ रहा है
@@ -46,14 +51,17 @@ Expected language: Marathi, category: Hostel.
 
 ## Current Gaps
 
-The prototype provides full multilingual complaint intake (English, Hindi, Hinglish, Marathi). Open areas for future contributions include building a staff admin analytics dashboard, speech-to-text input, and automated email/SMS status alerts.
+## Current Gaps
+
+The prototype provides full multilingual complaint intake (English, Hindi, Hinglish, Marathi) with calibrated confidence scores and negation-aware priority rules. Open areas for future contributions include building a staff admin analytics dashboard, speech-to-text input, and automated email/SMS status alerts.
 
 ## Main Technical Concepts
 
-- Django request/response flow
-- Django ORM and SQLite
-- TF-IDF text representation
-- Logistic Regression classification
-- Cosine similarity
+- Django request/response flow & ORM
+- Calibrated probability confidence estimation (`predict_proba`)
+- Sublinear TF-IDF text representation with n-grams
+- Regularized Logistic Regression with balanced class weights
+- Multi-tiered negation-aware priority triage
+- Cosine similarity duplicate detection
 - HTML/CSS forms
-- Automated Django tests
+- Automated Django test suite & benchmark evaluation

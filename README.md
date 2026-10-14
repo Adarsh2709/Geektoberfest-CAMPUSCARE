@@ -12,7 +12,8 @@ Students can:
 - Submit a campus complaint in English, Hindi, Hinglish, or Marathi
 - Get an automatically detected complaint language
 - Get an automatically predicted complaint category
-- Get a priority level
+- Get a calibrated prediction confidence score
+- Get an intelligent priority level with hazard and negation handling
 - See the department routed for the complaint
 - Get a duplicate/similar-complaint warning
 
@@ -25,11 +26,13 @@ Student Complaint (English / Hindi / Hinglish / Marathi)
        ↓
 Language Detection & Unicode Normalization
        ↓
-Script-Aware TF-IDF Text Features
+Preprocessing & Contraction Expansion
        ↓
-Complaint Category Prediction
+Script-Aware, Sublinear TF-IDF Text Features (Unigrams & Bigrams)
        ↓
-Multilingual Priority Detection
+Category Prediction & Confidence Estimation
+       ↓
+Multilingual, Negation-Aware Priority Triage
        ↓
 Department Routing
        ↓
@@ -39,6 +42,8 @@ SQLite / PostgreSQL Database
 ```
 
 For detailed architectural trade-offs, language detection heuristics, and limitations, refer to [MULTILINGUAL.md](MULTILINGUAL.md).
+
+For detailed benchmark comparisons, classifier experiments, and stated limitations, see [EVALUATION.md](EVALUATION.md).
 
 ## Categories
 
