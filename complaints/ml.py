@@ -1,6 +1,7 @@
 import os
 import re
 import unicodedata
+import joblib
 import pandas as pd
 
 from django.conf import settings
@@ -136,7 +137,7 @@ def detect_language(text):
 
 
 # -----------------------------
-# Load training dataset
+# Category model persistence & loading
 # -----------------------------
 
 DATA_PATH = os.path.join(
@@ -145,35 +146,74 @@ DATA_PATH = os.path.join(
     "complaints.csv"
 )
 
-data = pd.read_csv(DATA_PATH)
-
-
-# -----------------------------
-# Train category model
-# -----------------------------
-
-vectorizer = TfidfVectorizer(
-    lowercase=True,
-    stop_words="english",
-    ngram_range=(1, 2),
-    token_pattern=TOKEN_PATTERN,
-    sublinear_tf=True,
-    max_df=0.9
+MODEL_PATH = os.path.join(
+    settings.BASE_DIR,
+    "data",
+    "category_model.joblib"
 )
 
-X = vectorizer.fit_transform(data["complaint"].map(preprocess_text))
 
-category_model = LogisticRegression(
-    C=2.0,
-    max_iter=1000,
-    class_weight="balanced",
-    solver="lbfgs"
-)
+def train_category_model(data_path=DATA_PATH, save_path=MODEL_PATH):
+    """
+    Trains the TF-IDF vectorizer and Logistic Regression category classifier
+    from the dataset and optionally serializes the artifact to disk.
+    """
+    data = pd.read_csv(data_path)
 
-category_model.fit(
-    X,
-    data["category"]
-)
+    vec = TfidfVectorizer(
+        lowercase=True,
+        stop_words="english",
+        ngram_range=(1, 2),
+        token_pattern=TOKEN_PATTERN,
+        sublinear_tf=True,
+        max_df=0.9
+    )
+
+    X = vec.fit_transform(data["complaint"].map(preprocess_text))
+
+    model = LogisticRegression(
+        C=2.0,
+        max_iter=1000,
+        class_weight="balanced",
+        solver="lbfgs"
+    )
+
+    model.fit(
+        X,
+        data["category"]
+    )
+
+    if save_path:
+        try:
+            os.makedirs(os.path.dirname(save_path), exist_ok=True)
+            joblib.dump({"vectorizer": vec, "category_model": model}, save_path)
+        except Exception as e:
+            print(f"Warning: Failed to save category model to {save_path}: {e}")
+
+    return vec, model
+
+
+def load_category_model(model_path=MODEL_PATH, fallback_train=True):
+    """
+    Loads pre-trained vectorizer and category classifier from disk.
+    If the serialized artifact does not exist or fails to load,
+    falls back to training and saves the model for future runs.
+    """
+    if os.path.exists(model_path):
+        try:
+            artifact = joblib.load(model_path)
+            if isinstance(artifact, dict) and "vectorizer" in artifact and "category_model" in artifact:
+                return artifact["vectorizer"], artifact["category_model"]
+        except Exception as e:
+            print(f"Warning: Failed to load category model from {model_path}: {e}. Retraining...")
+
+    if fallback_train:
+        return train_category_model(save_path=model_path)
+    raise FileNotFoundError(f"Trained model artifact not found at {model_path}")
+
+
+# Pre-load or initialize category model and vectorizer
+vectorizer, category_model = load_category_model()
 
 
 # -----------------------------
@@ -235,35 +275,46 @@ def predict_priority(text):
 # Detect duplicate complaints
 # -----------------------------
 
-def detect_duplicate(text):
+def detect_duplicate(text, category=None, days=30, threshold=0.75):
+    """
+    Detects if a complaint is a duplicate of an existing recent complaint.
+    Optimizations:
+    1. Reuses the pre-trained vectorizer (.transform()) instead of retraining TF-IDF on every call.
+    2. Scopes DB query to active/recent complaints (e.g., same category or within last 30 days).
+    3. Caps candidate evaluation for bounded sub-millisecond latency.
+    """
     from .models import Complaint
+    from django.utils import timezone
+    from datetime import timedelta
 
-    complaints = list(
-        Complaint.objects.values_list(
-            "description",
-            flat=True
-        )
-    )
+    if not text or not str(text).strip():
+        return False
 
-    if not complaints:
+    queryset = Complaint.objects.all()
+    if category:
+        queryset = queryset.filter(category=category)
+
+    if days:
+        cutoff = timezone.now() - timedelta(days=days)
+        recent_qs = queryset.filter(created_at__gte=cutoff)
+        candidate_texts = list(recent_qs.order_by("-created_at").values_list("description", flat=True)[:200])
+        # If no complaints in last N days, fallback to recent complaints in this category/scope
+        if not candidate_texts:
+            candidate_texts = list(queryset.order_by("-created_at").values_list("description", flat=True)[:200])
+    else:
+        candidate_texts = list(queryset.order_by("-created_at").values_list("description", flat=True)[:200])
+
+    if not candidate_texts:
         return False
 
     cleaned_text = preprocess_text(text)
-    all_text = [preprocess_text(c) for c in complaints] + [cleaned_text]
-
-    duplicate_vectorizer = TfidfVectorizer(
-        lowercase=True,
-        stop_words="english",
-        token_pattern=TOKEN_PATTERN,
-        ngram_range=(1, 2),
-        sublinear_tf=True
-    )
-
-    matrix = duplicate_vectorizer.fit_transform(all_text)
+    input_vector = vectorizer.transform([cleaned_text])
+    candidate_vectors = vectorizer.transform([preprocess_text(c) for c in candidate_texts])
 
     similarities = cosine_similarity(
-        matrix[-1],
-        matrix[:-1]
+        input_vector,
+        candidate_vectors
     )[0]
 
-    return similarities.max() >= 0.75
+    return bool(similarities.max() >= threshold)
+
