@@ -1,7 +1,12 @@
 from django.contrib.auth.decorators import login_required, user_passes_test
 from django.shortcuts import get_object_or_404, redirect, render
 
-from .ml import detect_duplicate, predict_category, predict_priority
+from .ml import (
+    detect_duplicate,
+    predict_category,
+    predict_category_with_confidence,
+    predict_priority,
+)
 from .models import Complaint
 
 
@@ -20,6 +25,7 @@ staff_required = user_passes_test(_is_staff, login_url='login')
 # Student-facing complaint submission view
 # ---------------------------------------------------------------------------
 
+
 def home(request):
     result = None
 
@@ -28,7 +34,7 @@ def home(request):
         description = request.POST.get("description")
 
         if student_name and description:
-            category = predict_category(description)
+            category, confidence = predict_category_with_confidence(description)
             priority = predict_priority(description)
             duplicate = detect_duplicate(description)
 
@@ -40,19 +46,23 @@ def home(request):
                 "Transport": "Transport Office"
             }
 
+            department = departments.get(category, "Administration")
+
             Complaint.objects.create(
                 student_name=student_name,
                 description=description,
                 category=category,
                 priority=priority,
-                department=departments.get(category, "Administration"),
-                is_duplicate=duplicate
+                department=department,
+                is_duplicate=duplicate,
+                confidence=confidence
             )
 
             result = {
                 "category": category,
+                "confidence": round(confidence * 100, 1),
                 "priority": priority,
-                "department": departments.get(category, "Administration"),
+                "department": department,
                 "duplicate": duplicate
             }
 
