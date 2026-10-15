@@ -6,6 +6,7 @@ from .ml import (
     predict_category,
     predict_category_with_confidence,
     predict_priority,
+    detect_language
 )
 from .models import Complaint
 
@@ -34,6 +35,7 @@ def home(request):
         description = request.POST.get("description")
 
         if student_name and description:
+            language = detect_language(description)
             category, confidence = predict_category_with_confidence(description)
             priority = predict_priority(description)
             duplicate = detect_duplicate(description)
@@ -55,6 +57,7 @@ def home(request):
                 priority=priority,
                 department=department,
                 is_duplicate=duplicate,
+                language=language,
                 confidence=confidence
             )
 
@@ -63,7 +66,8 @@ def home(request):
                 "confidence": round(confidence * 100, 1),
                 "priority": priority,
                 "department": department,
-                "duplicate": duplicate
+                "duplicate": duplicate,
+                "language": language
             }
 
     return render(request, "complaints/home.html", {"result": result})
