@@ -1,13 +1,28 @@
-import os
+"""ML helpers for complaint classification and duplicate detection.
+
+Design goals:
+- No heavy work at import time. Importing this module must NOT read CSVs,
+  import pandas, or fit any model. Models are loaded lazily on first use.
+- Pre-trained artifacts (``data/ml_models/*.joblib``) are built once at
+  deploy/build time via ``python manage.py train_ml`` and then just
+  loaded from disk at runtime (fast cold starts on Render free plan).
+- ``detect_duplicate()`` reuses the already-fitted category vectorizer with
+  ``transform()`` instead of creating + ``fit_transform()``-ing a new
+  vectorizer over the whole DB on every call. It also only compares
+  against the most recent N complaints so cost stays bounded as the DB
+  grows.
+"""
+
 import re
+import threading
 import unicodedata
+from pathlib import Path
+
 import joblib
 import pandas as pd
 
+
 from django.conf import settings
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics.pairwise import cosine_similarity
 
 
 # -----------------------------
@@ -137,83 +152,113 @@ def detect_language(text):
 
 
 # -----------------------------
-# Category model persistence & loading
+# Lazy model loading (no training at import time)
 # -----------------------------
 
-DATA_PATH = os.path.join(
-    settings.BASE_DIR,
-    "data",
-    "complaints.csv"
-)
-
-MODEL_PATH = os.path.join(
-    settings.BASE_DIR,
-    "data",
-    "category_model.joblib"
-)
+DATA_PATH = Path(settings.BASE_DIR) / "data" / "complaints.csv"
+MODELS_DIR = Path(settings.BASE_DIR) / "data" / "ml_models"
+VECTORIZER_PATH = MODELS_DIR / "vectorizer.joblib"
+CATEGORY_MODEL_PATH = MODELS_DIR / "category_model.joblib"
+MODEL_PATH = CATEGORY_MODEL_PATH
 
 
-def train_category_model(data_path=DATA_PATH, save_path=MODEL_PATH):
-    """
-    Trains the TF-IDF vectorizer and Logistic Regression category classifier
-    from the dataset and optionally serializes the artifact to disk.
-    """
-    data = pd.read_csv(data_path)
+# Tunables for duplicate detection.
+DUPLICATE_THRESHOLD = 0.75
+DUPLICATE_CHECK_LIMIT = 500  # bound per-request work as the DB grows.
 
-    vec = TfidfVectorizer(
+_lock = threading.Lock()
+_vectorizer = None
+_category_model = None
+
+
+def _build_vectorizer():
+    from sklearn.feature_extraction.text import TfidfVectorizer
+
+    return TfidfVectorizer(
         lowercase=True,
         stop_words="english",
         ngram_range=(1, 2),
         token_pattern=TOKEN_PATTERN,
         sublinear_tf=True,
-        max_df=0.9
+        max_df=0.9,
     )
 
-    X = vec.fit_transform(data["complaint"].map(preprocess_text))
 
-    model = LogisticRegression(
+def _train_and_save():
+    """Train from ``data/complaints.csv`` and persist artifacts.
+
+    Only called at build time (management command) or as a one-time
+    fallback if the artifacts are missing at runtime.
+    """
+    import joblib
+    import pandas as pd
+    from sklearn.linear_model import LogisticRegression
+
+    data = pd.read_csv(DATA_PATH)
+
+    vectorizer = _build_vectorizer()
+    X = vectorizer.fit_transform(data["complaint"].map(preprocess_text))
+
+    category_model = LogisticRegression(
         C=2.0,
         max_iter=1000,
         class_weight="balanced",
-        solver="lbfgs"
+        solver="lbfgs",
     )
+    category_model.fit(X, data["category"])
 
-    model.fit(
-        X,
-        data["category"]
-    )
+    MODELS_DIR.mkdir(parents=True, exist_ok=True)
+    joblib.dump(vectorizer, VECTORIZER_PATH)
+    joblib.dump(category_model, CATEGORY_MODEL_PATH)
 
-    if save_path:
+    return vectorizer, category_model
+
+
+def _get_models():
+    """Load (once, thread-safely) the persisted vectorizer + model."""
+    global _vectorizer, _category_model
+
+    if _vectorizer is not None and _category_model is not None:
+        return _vectorizer, _category_model
+
+    with _lock:
+        # Double-checked locking: another thread may have loaded already.
+        if _vectorizer is not None and _category_model is not None:
+            return _vectorizer, _category_model
+
+        import joblib
+
         try:
-            os.makedirs(os.path.dirname(save_path), exist_ok=True)
-            joblib.dump({"vectorizer": vec, "category_model": model}, save_path)
-        except Exception as e:
-            print(f"Warning: Failed to save category model to {save_path}: {e}")
+            _vectorizer = joblib.load(VECTORIZER_PATH)
+            _category_model = joblib.load(CATEGORY_MODEL_PATH)
+            if not hasattr(_category_model, "multi_class"):
+                _category_model.multi_class = "auto"
+            _category_model.predict_proba(_vectorizer.transform(["test"]))
+        except Exception:
+            # Artifacts missing/corrupt (e.g. fresh clone without running
+            # train_ml, or sklearn version skew): train once, then serve
+            # from memory afterwards.
+            _vectorizer, _category_model = _train_and_save()
 
-    return vec, model
-
-
-def load_category_model(model_path=MODEL_PATH, fallback_train=True):
-    """
-    Loads pre-trained vectorizer and category classifier from disk.
-    If the serialized artifact does not exist or fails to load,
-    falls back to training and saves the model for future runs.
-    """
-    if os.path.exists(model_path):
-        try:
-            artifact = joblib.load(model_path)
-            if isinstance(artifact, dict) and "vectorizer" in artifact and "category_model" in artifact:
-                return artifact["vectorizer"], artifact["category_model"]
-        except Exception as e:
-            print(f"Warning: Failed to load category model from {model_path}: {e}. Retraining...")
-
-    if fallback_train:
-        return train_category_model(save_path=model_path)
-    raise FileNotFoundError(f"Trained model artifact not found at {model_path}")
+        return _vectorizer, _category_model
 
 
-# Pre-load or initialize category model and vectorizer
-vectorizer, category_model = load_category_model()
+def train_category_model(data_path=DATA_PATH, save_path=None):
+    """Backward-compatible wrapper for offline/test training."""
+    return _train_and_save()
+
+
+def load_category_model(model_path=None, fallback_train=True):
+    """Backward-compatible loader returning cached vectorizer and category classifier."""
+    return _get_models()
+
+
+def __getattr__(name):
+    if name in ("vectorizer", "category_model"):
+        vec, model = _get_models()
+        return vec if name == "vectorizer" else model
+    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+
 
 
 # -----------------------------
@@ -222,6 +267,7 @@ vectorizer, category_model = load_category_model()
 
 def predict_category(text):
     """Predict category label (backward-compatible signature)."""
+    vectorizer, category_model = _get_models()
     cleaned = preprocess_text(text)
     text_vector = vectorizer.transform([cleaned])
     return category_model.predict(text_vector)[0]
@@ -229,6 +275,7 @@ def predict_category(text):
 
 def predict_category_with_confidence(text):
     """Predict category label along with calibrated probability confidence score."""
+    vectorizer, category_model = _get_models()
     cleaned = preprocess_text(text)
     text_vector = vectorizer.transform([cleaned])
     probs = category_model.predict_proba(text_vector)[0]
@@ -275,7 +322,7 @@ def predict_priority(text):
 # Detect duplicate complaints
 # -----------------------------
 
-def detect_duplicate(text, category=None, days=30, threshold=0.75):
+def detect_duplicate(text, category=None, days=30, threshold=DUPLICATE_THRESHOLD, limit=DUPLICATE_CHECK_LIMIT):
     """
     Detects if a complaint is a duplicate of an existing recent complaint.
     Optimizations:
@@ -283,12 +330,15 @@ def detect_duplicate(text, category=None, days=30, threshold=0.75):
     2. Scopes DB query to active/recent complaints (e.g., same category or within last 30 days).
     3. Caps candidate evaluation for bounded sub-millisecond latency.
     """
+    if not text or not str(text).strip():
+        return False
+
+    from sklearn.metrics.pairwise import cosine_similarity
     from .models import Complaint
     from django.utils import timezone
     from datetime import timedelta
 
-    if not text or not str(text).strip():
-        return False
+    vectorizer, _ = _get_models()
 
     queryset = Complaint.objects.all()
     if category:
@@ -297,12 +347,11 @@ def detect_duplicate(text, category=None, days=30, threshold=0.75):
     if days:
         cutoff = timezone.now() - timedelta(days=days)
         recent_qs = queryset.filter(created_at__gte=cutoff)
-        candidate_texts = list(recent_qs.order_by("-created_at").values_list("description", flat=True)[:200])
-        # If no complaints in last N days, fallback to recent complaints in this category/scope
+        candidate_texts = list(recent_qs.order_by("-created_at").values_list("description", flat=True)[:limit])
         if not candidate_texts:
-            candidate_texts = list(queryset.order_by("-created_at").values_list("description", flat=True)[:200])
+            candidate_texts = list(queryset.order_by("-created_at").values_list("description", flat=True)[:limit])
     else:
-        candidate_texts = list(queryset.order_by("-created_at").values_list("description", flat=True)[:200])
+        candidate_texts = list(queryset.order_by("-id").values_list("description", flat=True)[:limit])
 
     if not candidate_texts:
         return False
@@ -316,5 +365,5 @@ def detect_duplicate(text, category=None, days=30, threshold=0.75):
         candidate_vectors
     )[0]
 
-    return bool(similarities.max() >= threshold)
+    return bool((similarities >= threshold).any())
 
